@@ -1,0 +1,119 @@
+#ebook-section {
+    margin-top: 15em;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.retangulo {
+    height: 30em;
+    width: 100%;
+    background: #12a2da;
+    position: absolute;
+    z-index: -1;
+}
+
+.ebook {
+    display: flex;
+    align-items: center;
+}
+
+.titulo-ebook {
+    font-family: 'Montserrat Medium', sans-serif;
+    font-size: 3em;
+    font-weight: 500;
+    color: #fff;
+}
+
+.texto-ebook {
+    color: #fff;
+    margin-top: 2em;
+}
+
+#foto-ebook {
+    height: 35em;
+    border-radius: 8px;
+    box-shadow: 0 3px 24px 0 rgba(0, 0, 0, 0.16);
+}
+
+#textos-ebook {
+    margin-left: 5em;
+}
+
+
+.button-primary-yellow {
+    display: flex;
+    font-family: "Montserrat Bold", sans-serif;
+    font-weight: 400;
+    color: #fff;
+    text-align: center;
+    vertical-align: middle;
+    background-color: #edc02c;
+    border: 3px solid #edc02c;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: 50px;
+    transition: padding 0.3s;
+    align-content: flex-start;
+    margin-right: 1.5rem;
+    box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.24);
+    margin-top: 3em;
+}
+
+.button-primary-yellow:hover {
+    padding: 0.75rem 3rem;
+}
+
+@media (max-width: 973px) {
+    #ebook-section {
+        margin-top: 10em;
+    }
+    
+    .retangulo {
+        background: #fff;
+    }
+    
+    .ebook {
+        display: inline;
+    }
+    
+    .titulo-ebook {
+        color: #48495a;
+    }
+    
+    .texto-ebook {
+        color: #838593;
+    }
+    
+    #foto-ebook {
+        align-content: center;
+        height: 25em;
+        margin-left: 14%;
+    }
+    
+    #textos-ebook {
+        margin-top: 3em;
+    }
+    
+    
+    .button-primary-yellow {
+        display: flex;
+        font-family: "Montserrat Bold", sans-serif;
+        font-weight: 400;
+        color: #fff;
+        text-align: center;
+        vertical-align: middle;
+        background-color: #edc02c;
+        border: 3px solid #edc02c;
+        padding: 0.75rem 1.5rem;
+        font-size: 1rem;
+        line-height: 1.5;
+        border-radius: 50px;
+        transition: padding 0.3s;
+        align-content: flex-start;
+        margin-right: 1.5rem;
+        box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.24);
+        margin-top: 3em;
+    }
+}

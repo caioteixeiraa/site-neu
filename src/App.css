@@ -1,0 +1,33 @@
+.App {
+  justify-content: center;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+.align-left {
+  align-content: flex-start;
+}
+
+.align-right {
+  align-content: flex-end;
+}
+
+@font-face {
+  font-family: "Montserrat Bold";
+  src: url("./Assets/fonts/Montserrat-Bold.ttf");
+}
+
+@font-face {
+  font-family: "Montserrat Normal";
+  src: url('./Assets/fonts/Montserrat-Regular.ttf');
+}
+
+@font-face {
+  font-family: "Montserrat Light";
+  src: url("./Assets/fonts/Montserrat-Light.ttf");
+}
+
+@font-face {
+  font-family: "Montserrat Medium";
+  src: url("./Assets/fonts/Montserrat-Medium.ttf");
+}

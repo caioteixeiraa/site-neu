@@ -1,0 +1,51 @@
+.pilares {
+    margin-top: 15em;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#linha {
+    border: 2px solid #12a2da;
+    border-radius: 10px;
+    width: 100%;
+}
+
+.circulos {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: absolute;
+}
+
+.circle-minor {
+    width: 224.3px;
+    height: 224.3px;
+    font-family: 'Montserrat Normal', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #48495a;
+    background-color: #fff;
+    border: solid 4px #12a2da;
+    border-radius: 50%;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.circle-major {
+    width: 297.8px;
+    height: 297.8px;
+    font-family: 'Montserrat Normal', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #48495a;
+    background-color: #fff;
+    border: solid 4px #12a2da;
+    border-radius: 50%;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}

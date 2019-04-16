@@ -1,0 +1,30 @@
+#cursos-section {
+    margin-top: 10em;
+}
+
+.texto-cursos {
+    display: flex;
+    margin-top: 2em;
+}
+
+.logos-usp {
+    align-content: center;
+    justify-content: space-between;
+}
+
+#logo-usp {
+    height: 7em;
+    margin-right: 2em;
+}
+
+#logo-prp {
+    height: 4em;
+}
+
+.alinha-centro {
+    align-items: center;
+}
+
+.retangulos {
+    margin-top: 5em;
+}

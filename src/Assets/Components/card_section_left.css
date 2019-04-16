@@ -1,0 +1,11 @@
+.startuplab {
+    align-items: center;
+    margin-top: 25rem;
+    display: flex;
+}
+
+.logo-LAB {
+    margin-left: 0px;
+    position: absolute;
+    width: 50%;
+}

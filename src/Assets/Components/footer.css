@@ -1,0 +1,92 @@
+#footer-section {
+    background: #48495a;
+    margin-top: 10em;
+    padding-top: 6em;
+    padding-bottom: 3em;
+}
+
+.titulo-footer {
+    font-family: 'Montserrat Bold', sans-serif;
+    font-size: 3em;
+}
+
+.texto-footer {
+    font-family: 'Montserrat Light', sans-serif;
+    margin-top: 2em;
+    font-weight: 400;
+}
+
+.texto-branco {
+    color: #fff;
+}
+
+.titulo-maisinfo {
+    font-family: 'Montserrat Bold', sans-serif;
+    font-size: 1em;
+}
+
+.mais-info {
+    font-family: 'Montserrat Light', sans-serif;
+    font-size: 1em;
+    font-weight: 300;
+    line-height: 1.6rem;
+}
+
+.foto-maps {
+    max-width: 100%;
+    height: auto;
+    margin-left: 5em;
+}
+
+.textos-foto {
+    display: flex;
+    justify-items: center; 
+}
+
+.linha-azul {
+    background: #12a2da;
+    height: 1px;
+}
+
+.navbar-footer {
+    margin-top: 4em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.item-nav-footer {
+    font-family: 'Montserrat Medium', sans-serif;
+    font-size: 1em;
+    text-decoration: none;
+    color: #fff;
+}
+
+.button-secondary-footer {
+    display: flex;
+    font-family: "Montserrat Medium", sans-serif;
+    font-weight: 400;
+    color: #fff;
+    text-align: center;
+    vertical-align: middle;
+    background-color: transparent;
+    border: 2px solid #fff;
+    padding: 0.75rem 2rem;
+    font-size: 1em;
+    line-height: 1.5;
+    border-radius: 50px;
+    transition: padding 0.3s;
+    align-content: flex-start;
+  }
+  
+  .button-secondary-footer:hover {
+    padding: 0.75rem 3rem;
+  }
+
+  .copyright-neu {
+      margin-top: 5em;
+      font-size: 1em;
+      color: #fff;
+      font-weight: 700;
+      text-align: center;
+  }

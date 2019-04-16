@@ -1,0 +1,68 @@
+.bloco {
+    margin-top: 4rem;
+}
+
+.titulo {
+    font-family: 'Montserrat Medium', sans-serif;
+    color: #48495a;
+    font-weight: 500;
+    font-size: 2.5em;
+}
+
+.textos {
+    font-family: 'Montserrat Light', sans-serif;
+    color: #838593;
+    font-weight: 300;
+    font-size: 1.2rem;
+    line-height: 2rem;
+    margin-top: 2rem;
+}
+
+.botoes {
+    justify-content: flex-start;
+    margin-top: 2rem;
+}
+
+.button-primary {
+    display: flex;
+    font-family: "Montserrat Bold", sans-serif;
+    font-weight: 400;
+    color: #fff;
+    text-align: center;
+    vertical-align: middle;
+    background-color: #12a2da;
+    border: 3px solid #12a2da;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: 50px;
+    transition: padding 0.3s;
+    align-content: flex-start;
+    margin-right: 1.5rem;
+    box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.24);
+}
+
+.button-primary:hover {
+    padding: 0.75rem 3rem;
+}
+
+.button-secondary {
+    display: flex;
+    font-family: "Montserrat Bold", sans-serif;
+    font-weight: 400;
+    color: #12a2da;
+    text-align: center;
+    vertical-align: middle;
+    background-color: #fff;
+    border: 2px solid #12a2da;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: 50px;
+    transition: padding 0.3s;
+    align-content: flex-start;
+  }
+  
+  .button-secondary:hover {
+    padding: 0.75rem 3rem;
+  }

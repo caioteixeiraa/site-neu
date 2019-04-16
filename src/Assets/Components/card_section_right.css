@@ -1,0 +1,15 @@
+.startupship {
+    align-items: center;
+    margin-top: 18em;
+}
+
+.logo-SHIP {
+    margin-right: 0px;
+    position: relative;
+    width: 50%;
+}
+
+.por_cima {
+    position: absolute;
+    z-index: 1;
+}

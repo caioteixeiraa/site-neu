@@ -1,0 +1,36 @@
+.navbar-comp {
+    width: 100%;
+    font-family: "Montserrat Medium", sans-serif;
+    font-size: 0.9rem;
+}
+
+.logo-neu {
+    width: 50%;
+}
+
+.flex-end {
+    justify-content: flex-end;
+
+}
+
+ul {
+    list-style-type: none;
+    height: 8px;
+}
+
+li {
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.3s;
+    float: left;
+  }
+  
+  li a {
+    color: white;
+    text-align: center;
+    text-decoration: none;
+  }
+
+
+li:hover {
+    border-bottom: 2px solid #EBC330;
+}

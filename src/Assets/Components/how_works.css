@@ -1,0 +1,81 @@
+#how-works-lab {
+    margin-top: 15em;
+}
+
+.linha {
+    display: flex;
+}
+
+h3 {
+    font-family: 'Montserrat Medium', sans-serif;
+    font-weight: 500;
+    color: #48495a;
+    font-size: 1.3rem;
+}
+
+p {
+    font-family: 'Montserrat Light', sans-serif;
+    font-weight: 300;
+    font-size: 1.3rem;
+    line-height: 2rem;
+    color: #838593;
+}
+
+.textos-lab {
+    margin-top: 2rem;
+}
+
+.botao-lab {
+    margin-top: 4rem;
+}
+
+.itens-lab {
+    justify-content: flex-end;
+}
+
+.texto-cases {
+    font-family: 'Montserrat Medium', sans-serif;
+    font-weight: 500;
+    color: #48495a;
+    font-size: 0.8rem;
+}
+
+.cases-de-sucesso {
+    display: flex;
+    align-items: center;
+}
+
+.logo-startups-lab {
+    justify-content: flex-end;
+}
+
+.logo-mvisia {
+    width: 15%;
+    height: auto;
+    margin-left: 3rem;
+}
+
+.logo-retina {
+    width: 20%;
+    height: auto;
+    margin-left: 3rem;
+}
+
+.logo-flowsense {
+    width: 25%; 
+    height: auto;
+    margin-left: 3rem;
+}
+
+@media only screen and (max-width: 700px){
+    .responsive {
+      width: 49.99999%;
+      margin: 6px 0;
+    }
+  }
+  
+  @media only screen and (max-width: 500px){
+    .responsive {
+      width: 100%;
+    }
+  }
