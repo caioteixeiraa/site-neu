@@ -1,6 +1,7 @@
 .startupship {
     align-items: center;
     margin-top: 18em;
+    display: flex;
 }
 
 .logo-SHIP {
