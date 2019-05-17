@@ -43,7 +43,7 @@ export class StartupShipPage extends React.Component {
         numero4="+300"
         descricao4_1="Currículos"
         descricao4_2="no banco" />
-        
+        <Footer />
       </div>
     );
   }
