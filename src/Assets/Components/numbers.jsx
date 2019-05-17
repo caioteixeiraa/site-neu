@@ -7,7 +7,7 @@ export class Numbers extends React.Component{
     }
     render() {
         return (
-          <div>
+          <div className="margem-top">
             <div style={{flex: 2}}>
             </div>
             <div className="container content" style={{flex: 8}}>
