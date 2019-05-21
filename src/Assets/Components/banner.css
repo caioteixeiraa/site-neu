@@ -17,6 +17,11 @@
   margin-top: 3%;
 }
 
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .title {
     color: #FFFFFF;
     font-size: 3vw;

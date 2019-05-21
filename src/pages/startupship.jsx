@@ -15,11 +15,10 @@ import { HomeParceiros } from '../Assets/Components/home_parceiros';
 import { Banner2 } from '../Assets/Components/banner2';
 import { DescricaoPrograma } from '../Assets/Components/descricaoprograma';
 import { Footer } from '../Assets/Components/footer';
-import InfiniteCarousel from 'react-leaf-carousel';
 import LogoMVISIA from '../Assets/img/logos-startups/logo-mvisia.svg';
 import LogoMobly from '../Assets/img/logos-startups/logo-mobly.svg';
 import LogoIngresse from '../Assets/img/logos-startups/ingresse-06.svg';
-import Slider from 'react-slick';
+import { SecaoIcones } from '../Assets/Components/secao_icones';
 
 export class StartupShipPage extends React.Component {
   constructor(props){
@@ -43,6 +42,7 @@ export class StartupShipPage extends React.Component {
         numero4="+300"
         descricao4_1="Currículos"
         descricao4_2="no banco" />
+        <SecaoIcones />
         <Footer />
       </div>
     );
