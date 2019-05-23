@@ -9,7 +9,7 @@ export class DescricaoPrograma extends React.Component{
                 <h3 className="subtitulo container row">Quer estagiar em uma startup?</h3>
                 <div className="row">
                     <div className="textos col-md-6">
-                        <p className="texto">O StartupSHIP é o programa de conexão de alunos USP com as startups da nossa Rede.Temos como objetivo inserir alunos 
+                        <p className="texto">O StartupSHIP é o programa de conexão de alunos USP com as startups da nossa Rede. Temos como objetivo inserir alunos 
                         no ecossistema de empreendedorismo para que adquiram muito aprendizado em um ambiente de autonomia. Se você é de uma startup e tem uma 
                         vaga de estágio, entre em contato conosco:</p>
                     </div>
