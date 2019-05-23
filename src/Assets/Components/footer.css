@@ -60,6 +60,12 @@
     font-size: 1em;
     text-decoration: none;
     color: #fff;
+    text-emphasis: none;
+}
+
+.item-nav-footer:hover {
+    text-emphasis: none;
+        text-decoration: underline;
 }
 
 .button-secondary-footer {

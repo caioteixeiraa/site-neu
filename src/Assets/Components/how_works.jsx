@@ -15,7 +15,7 @@ export class HowWorks extends React.Component {
                     <div className="col-md-5 col-12 offset-0 offset-md-0 texto-esquerdo">
                         <p>{this.props.textolateral}</p>
                         <div className="botao-lab">
-                            <button type="button" className="button-primary" href="#">Saber mais</button>
+                            <a href={this.props.refpage}><button type="button" className="button-primary">Saber mais</button></a>
                         </div>
                     </div>
                     <div className="col-md-5 col-8 offset-1 itens-lab">
