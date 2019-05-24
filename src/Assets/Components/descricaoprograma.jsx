@@ -15,8 +15,8 @@ export class DescricaoPrograma extends React.Component{
                     </div>
                 </div>
                 <div className="botoes row">
-                    <button type="button col-lg-6 col-md-6 col-sm-8 col-xs-2" className="button-primary" href="#">Quero estagiar</button>
-                    <button type="button col-lg-6 col-md-6 col-sm-8 col-xs-2" className="button-secondary" href="#">Tenho uma vaga</button>
+                    <a href="http://bit.ly/quero_estagiar_em_uma_startup" target="_blank"><button type="button col-lg-6 col-md-6 col-sm-8 col-xs-2" className="button-primary" href="#">Quero estagiar</button></a>
+                    <a href="http://bit.ly/procuro_talentos_USP" target="_blank"><button type="button col-lg-6 col-md-6 col-sm-8 col-xs-2" className="button-secondary" href="#">Tenho uma vaga</button></a>
                 </div>
             </div>
         )

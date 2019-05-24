@@ -1,0 +1,40 @@
+.margem-top-secao-icones {
+    margin-top: 10em;
+}
+
+.justificado {
+    justify-content: space-between;
+}
+
+.item-secao-icones {
+    text-align: center;
+    margin-top: 2.5em;
+}
+
+.titulo-secao-icones {
+    font-family: 'Montserrat Medium', sans-serif;
+    text-align: center;
+    color: #003e60;
+    font-weight: 600;
+}
+
+.subtitulo-secao-icones {
+    font-family: 'Montserrat Medium', sans-serif;
+    text-align: center;
+    color: #12a2da;
+    font-weight: 500;
+    margin-top: 2em;
+}
+
+.texto-secao-icones {
+    text-align: center;
+    margin-top: 1.5em;
+}
+
+.margem-top3em {
+    margin-top: 3em;
+}
+
+.icone-secao-icones {
+    width: 30%;
+}
