@@ -12,7 +12,7 @@ export class CardSectionRight extends React.Component {
                         <div className="card-body">
                             <h2 className="card-title">Estágios em startups</h2>
                             <h4 className="card-subtitle">Quer estagiar em uma startup?</h4>
-                            <p className="card-text">Faça parte do StartupSHIP, o programa do NEU que ajuda alunos da Universidade de São Paulo a estagiar nas melhores e maiores startups.</p>
+                            <p className="card-text">Faça parte do StartupSHIP, o programa do NEU que <b>ajuda alunos da Universidade de São Paulo a estagiar</b> nas melhores e maiores startups.</p>
                             <a href="/StartupSHIP"><button type="button" className="button-primary">Saber mais</button></a>
                         </div>
                     </div>
