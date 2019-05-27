@@ -5,6 +5,7 @@ import { Banner2 } from '../Assets/Components/banner2';
 import { DescricaoPrograma } from '../Assets/Components/descricaoprograma';
 import { CarrosselStartups } from '../Assets/Components/carrossel_startups';
 import { SecaoIcones } from '../Assets/Components/secao_icones';
+import { ComoFuncionaShip } from '../Assets/Components/como_funciona_ship';
 import { Footer } from '../Assets/Components/footer';
 import LogoMVISIA from '../Assets/img/logos-startups/logo-mvisia.svg';
 import LogoMobly from '../Assets/img/logos-startups/logo-mobly.svg';
@@ -34,6 +35,7 @@ export class StartupShipPage extends React.Component {
         descricao4_2="no banco" />
         <CarrosselStartups />
         <SecaoIcones />
+        <ComoFuncionaShip />
         <Footer />
       </div>
     );

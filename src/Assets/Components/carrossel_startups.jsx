@@ -24,8 +24,8 @@ export class CarrosselStartups extends React.Component {
                     <img src={logo_99} alt="99" className="tamanho-img-4vw margem-direita-4em" />
                     <img src={logo_ingresse} alt="Ingresse" className="tamanho-img-10vw margem-direita-4em" />
                     <img src={logo_mobly} alt="Mobly" className="tamanho-img-8vw margem-direita-4em"/>
-                    <img src={logo_cuidas} alt="Cuidas" className="tamanho-img-8vw margem-direita-3em"/>
-                    <img src={logo_yellow} alt="Yellow" className="tamanho-img-8vw margem-direita-3em"/>
+                    <img src={logo_cuidas} alt="Cuidas" className="tamanho-img-8vw margem-direita-4em"/>
+                    <img src={logo_yellow} alt="Yellow" className="tamanho-img-8vw margem-direita-4em"/>
                     <img src={logo_celebrar} alt="Celebrar.co" className="tamanho-img-10vw margem-direita-4em"/>
                     <img src={logo_mvisia} alt="MVISIA" className="tamanho-img-10vw margem-direita-4em"/>
                     <img src={logo_genera} alt="Genera" className="tamanho-img-10vw margem-direita-4em"/>
