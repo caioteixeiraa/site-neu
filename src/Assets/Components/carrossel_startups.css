@@ -1,0 +1,52 @@
+.subtitulo-carrossel {
+    font-family: 'Montserrat Medium', sans-serif;
+    text-align: center;
+    color: #12a2da;
+    font-weight: 600;
+    margin-top: 6em;
+}
+
+.carrossel {
+    background-color: #f4f4f6;
+    height: 18em;
+    margin-top: 5em;
+}
+
+.linha {
+    width: 100%;
+    overflow: scroll;
+    align-items: center;
+}
+
+.margem-direita-3em {
+    margin-right: 3em;
+}
+
+.margem-direita-4em {
+    margin-right: 4em;
+}
+
+.tamanho-img-4vw {
+    width: 4vw;
+    height: 100%;
+}
+
+.tamanho-img-6vw {
+    width: 6vw;
+    height: 100%;
+}
+
+.tamanho-img-8vw {
+    width: 8vw;
+    
+}
+
+.tamanho-img-10vw {
+    width: 10vw;
+    
+}
+
+.tamanho-img-14vw {
+    width: 14vw;
+    
+}
