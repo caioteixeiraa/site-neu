@@ -2,6 +2,7 @@ import * as React from 'react';
 import './card_section_left.css';
 import { CardNEU } from './card_neu';
 import imgLAB from '../img/home_StartupLAB.png';
+import { Link } from 'react-router-dom';
 
 export class CardSectionLeft extends React.Component{
     render() {
