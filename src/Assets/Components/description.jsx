@@ -8,11 +8,11 @@ export class Description extends React.Component{
                 <h1 className="titulo container row">O que é o NEU?</h1>
                 <div className="row">
                     <div className="textos col-md-7">
-                        <p className="texto">O NEU (Núcleo de Empreendedorismo da USP) é uma organização sem fins lucrativos, 
-                        formada por alunos com apoio de pesquisadores e professores movidos por uma missão: fomentar a cultura de 
-                        empreendedorismo na Universidade de São Paulo.</p>
+                        <p className="texto">O NEU (Núcleo de Empreendedorismo da USP) é uma <b>organização sem fins lucrativos</b>, 
+                        formada por alunos com apoio de pesquisadores e professores movidos por uma missão: <b>fomentar a cultura de 
+                        empreendedorismo na Universidade de São Paulo</b>.</p>
                         <p className="texto">Dessa maneira são desenvolvidos programas, projetos e
-                        eventos no propósito de inspirar, capacitar e conectar os alunos de toda a Universidade para o mercado de trabalho</p>
+                        eventos no <b>propósito de inspirar, capacitar e conectar os alunos de toda a Universidade</b> para o mercado de trabalho</p>
                     </div>
                 </div>
                 <div className="botoes row">
