@@ -55,3 +55,7 @@ b {
   font-family: 'Montserrat Bold', sans-serif;
   color: #EDC02C;
 }
+
+a:hover {
+  text-decoration: none;
+}
