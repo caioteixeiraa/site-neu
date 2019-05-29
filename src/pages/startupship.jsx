@@ -36,6 +36,7 @@ export class StartupShipPage extends React.Component {
         <CarrosselStartups />
         <SecaoIcones />
         <ComoFuncionaShip />
+        
         <Footer />
       </div>
     );

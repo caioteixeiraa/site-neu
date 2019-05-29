@@ -1,5 +1,6 @@
 import * as React from 'react';
 import './como_funciona_ship.css';
+import { Timeline } from '../Components/timeline';
 
 export class ComoFuncionaShip extends React.Component {
     constructor(props){
@@ -12,6 +13,7 @@ export class ComoFuncionaShip extends React.Component {
                 <p className="texto-como-funciona-ship col-md-6">O StartupSHIP <b>divulga vagas das startups da rede NEU</b> diariamente as nossas mídias sociais
                     e e-mail. Está interessado e não sabe por onde começar?
                 </p>
+                <Timeline />
             </div>    
         )
     }
