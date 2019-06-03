@@ -1,0 +1,62 @@
+.card-depo {
+    border-radius: 6px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-top: 4px solid #EDC02C;
+}
+
+.texto-depo {
+    font-size: 1.2em;
+    font-style: italic;
+}
+
+.nome-depo {
+    font-family: 'Montserrat Bold', sans-serif;
+    font-size: 1em;
+    color: #838593;
+}
+
+.cargo-depo {
+    font-family: 'Montserrat Bold', sans-serif;
+    font-size: 1em;
+    color: #838593;
+}
+
+.startup-depo {
+    width: 10em;
+}
+
+.img-center {
+    display: block;
+    margin: 0 auto;
+}
+
+.img-rounded {
+    border-radius: 50%;
+}
+
+.img-depo {
+    width: 6.5em;
+    z-index: 1;
+    position: relative;
+    top: -3.5em;
+}
+
+.padding-depo {
+    padding: 2rem;
+}
+
+.margin-4em {
+    margin-top: 4em;
+}
+
+.content-depo {
+    margin-top: -3.5em;
+}
+
+@media only screen and (max-width: 1000px) {
+    .card-depo {
+        margin-top: 7em;
+    }
+    
+  }
