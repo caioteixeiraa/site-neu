@@ -15,13 +15,13 @@ export class StartupsLab extends React.Component {
                     <h4>{this.props.titulo}</h4>
                 </div>
                 <div className="col-sm-10 logo-startups-lab">
-                    <a href="http://mvisia.com.br/" target="#">
+                    <a href="http://mvisia.com.br/" target="_blank">
                         <img className="logo-mvisia responsive" src={logo_mvisia} alt="MVISIA"/>
                     </a>
-                    <a href="https://www.retinavision.com.br/" target="#">
+                    <a href="https://www.retinavision.com.br/" target="_blank">
                         <img className="logo-retina responsive" src={logo_retina} alt="Retina Vision"/>
                     </a>
-                    <a href="http://flowsense.com.br/" target="#">
+                    <a href="http://flowsense.com.br/" target="_blank">
                         <img className="logo-flowsense responsive" src={logo_flowsense} alt="Flowsense"/>
                     </a>
                 </div>

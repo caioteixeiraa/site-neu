@@ -15,13 +15,13 @@ export class StartupsShip extends React.Component {
                     <h4>{this.props.titulo}</h4>
                 </div>
                 <div className="col-sm-10 logo-startups-ship">
-                    <a href="https://99app.com/" target="#">
+                    <a href="https://99app.com/" target="_blank">
                         <img className="logo-99 responsive" src={logo_99} alt="99"/>
                     </a>
-                    <a href="https://www.ingresse.com/" target="#">
+                    <a href="https://www.ingresse.com/" target="_blank">
                         <img className="logo-ingresse responsive" src={logo_ingresse} alt="Ingresse"/>
                     </a>
-                    <a href="https://www.mobly.com.br/" target="#">
+                    <a href="https://www.mobly.com.br/" target="_blink">
                         <img className="logo-mobly responsive" src={logo_mobly} alt="Mobly"/>
                     </a>
                 </div>
