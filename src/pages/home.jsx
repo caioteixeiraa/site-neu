@@ -25,7 +25,7 @@ export class Home extends React.Component {
         numero2="+15k"
         descricao2_1="Alunos"
         descricao2_2="impactados"
-        numero3="+45k"
+        numero3="+55k"
         descricao3_1="Inscritos nos"
         descricao3_2="cursos online"
         numero4="+20"

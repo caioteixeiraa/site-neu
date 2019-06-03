@@ -1,0 +1,11 @@
+#secao-depoimentos {
+    margin-top: 11em;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+@media only screen and (max-width: 1000px) {
+    #secao-depoimentos {
+        display: block;
+    }
+  }
