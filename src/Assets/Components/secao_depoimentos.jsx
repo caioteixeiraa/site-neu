@@ -8,7 +8,8 @@ export class SecaoDepoimentos extends React.Component {
     }
     render() {
         return (
-            <div className="container-fluid" id="secao-depoimentos">
+            <div className="container-fluid carrossel-depoimentos" id="secao-depoimentos">
+                <Depoimento />
                 <Depoimento />
                 <Depoimento />
                 <Depoimento />
