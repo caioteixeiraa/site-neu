@@ -10,9 +10,9 @@
     position: relative;
 }
 
-.home-banner p {
+.texto-banner {
   color: #FFFFFF;
-  font-size: 1.5vw;
+  font-size: 1.5em;
   font-family: 'Montserrat Normal', sans-serif;
   margin-top: 3%;
 }
@@ -24,7 +24,7 @@
 
 .title {
     color: #FFFFFF;
-    font-size: 3vw;
+    font-size: 3.3em;
     font-family: 'Montserrat Bold', sans-serif;
     margin-top: 10%;
 }
@@ -61,4 +61,31 @@
 
 .button-secondary-banner:hover {
   padding: 0.75rem 3rem;
+}
+
+@media only screen and (max-width: 576px) {
+
+}
+
+@media only screen and (max-width: 768px) {
+  .texto-banner {
+    color: #FFFFFF;
+    font-size: 5em;
+  }
+
+  .title {
+    color: #FFFFFF;
+    font-size: 2.0em;
+    font-family: 'Montserrat Bold', sans-serif;
+    margin-top: 10%;
+}
+
+}
+
+@media only screen and (max-width: 992px) {
+
+}
+
+@media only screen and (max-width: 1200px) {
+  
 }

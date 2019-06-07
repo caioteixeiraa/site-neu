@@ -1,36 +1,28 @@
 import * as React from 'react';
 import './navbar.css';
-import logo from '../img/logo-neu (1).png' 
+import logo from '../img/logo-neu (1).png';
+import {Navbar, Nav} from 'react-bootstrap';
 
-export class Navbar extends React.Component{
+export class NavbarNEU extends React.Component{
     render() {
         return (
-            <div className="navbar-comp container">
-                <nav className="navbar navbar-expand-lg navbar-dark">
-
-                <a className="navbar-brand" href="/"><img className="logo-neu"src={logo} alt="logo-neu" /></a>
-
-                <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMainToggler"
-                    aria-controls="navbarMainToggler" aria-expanded="false" aria-label="Toggle navigation">
-                    <span className="navbar-toggler-icon"></span>
-                </button>
-
-                <section className="collapse navbar-collapse flex-end" id="navbarMainToggler">
-                    <div className="navbar-nav">
-                    <ul>
-                        <li><a className="nav-item nav-link" href="#">Sobre o NEU</a></li>
-                        <li><a className="nav-item nav-link" href="#">Pré-aceleração</a></li>
-                        <li><a className="nav-item nav-link" href="/StartupSHIP">Estágios</a></li>
-                        <li><a className="nav-item nav-link" href="#">Eventos</a></li>
-                        <li><a className="nav-item nav-link" href="#">Parcerias</a></li>
-                        <li><a className="nav-item nav-link" href="#">E-book</a></li>
-                        <li><a className="nav-item nav-link" href="#">Cursos Online</a></li>
-                        <li><a className="nav-item nav-link" href="#">Fale Conosco</a></li>
-                    </ul>
-                    </div>
-                </section>
-
-                </nav>
+            <div className="container" id="navbar">
+                <Navbar expand="lg" className="navbar-comp">
+                <Navbar.Brand href="/"><img className="logo-neu"src={logo} alt="logo-neu" /></Navbar.Brand>
+                <Navbar.Toggle aria-controls="basic-navbar-nav" className="texto-branco"/>
+                <Navbar.Collapse id="basic-navbar-nav">
+                <Nav className="mr-auto">
+                    <Nav.Link className="nav-item" href="#"><div className="texto-branco">Sobre o NEU</div></Nav.Link>
+                    <Nav.Link className="nav-item"href="/StartupLab"><div className="texto-branco">Pré-aceleração</div></Nav.Link>
+                    <Nav.Link className="nav-item"href="/StartupShip"><div className="texto-branco">Estágios</div></Nav.Link>
+                    <Nav.Link className="nav-item"href="#"><div className="texto-branco">Eventos</div></Nav.Link>
+                    <Nav.Link className="nav-item"href="#"><div className="texto-branco">Parcerias</div></Nav.Link>
+                    <Nav.Link className="nav-item"href="#"><div className="texto-branco">E-book</div></Nav.Link>
+                    <Nav.Link className="nav-item"href="#"><div className="texto-branco">Cursos Online</div></Nav.Link>
+                    <Nav.Link className="nav-item"href="#"><div className="texto-branco">Fale Conosco</div></Nav.Link>
+                </Nav>
+                </Navbar.Collapse>
+                </Navbar>
             </div>
         )
     }

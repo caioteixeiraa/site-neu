@@ -36,8 +36,8 @@
 }
 
 ::-webkit-scrollbar {
-  height: 4px;              /* height of horizontal scrollbar ← You're missing this */
-  width: 4px;               /* width of vertical scrollbar */
+  height: 6px;              
+  width: 4px;               
   border: 1px solid #EDC02C;
 }
 
@@ -58,4 +58,48 @@ b {
 
 a:hover {
   text-decoration: none;
+}
+
+.button-primary {
+  display: flex;
+  font-family: "Montserrat Bold", sans-serif;
+  font-weight: 400;
+  color: #fff;
+  text-align: center;
+  vertical-align: middle;
+  background-color: #12a2da;
+  border: 3px solid #12a2da;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: 50px;
+  transition: padding 0.3s;
+  align-content: flex-start;
+  margin-right: 1.5rem;
+  box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.24);
+}
+
+.button-primary:hover {
+  padding: 0.75rem 3rem;
+}
+
+.button-secondary {
+  display: flex;
+  font-family: "Montserrat Bold", sans-serif;
+  font-weight: 400;
+  color: #12a2da;
+  text-align: center;
+  vertical-align: middle;
+  background-color: #fff;
+  border: 2px solid #12a2da;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: 50px;
+  transition: padding 0.3s;
+  align-content: flex-start;
+}
+
+.button-secondary:hover {
+  padding: 0.75rem 3rem;
 }

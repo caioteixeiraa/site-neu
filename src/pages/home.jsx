@@ -32,7 +32,6 @@ export class Home extends React.Component {
         descricao4_1="Startups"
         descricao4_2="criadas" />
         <Description />
-        <Pillars />
         <CardSectionLeft />
         <HowWorks 
           titulo1="Como funciona a pré-aceleração?"

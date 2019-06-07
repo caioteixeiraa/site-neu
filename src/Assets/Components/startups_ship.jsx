@@ -11,10 +11,10 @@ export class StartupsShip extends React.Component {
     render() {
         return (    
             <div className="container cases-do-ship">
-                <div className="col-sm-3 texto-cases">
+                <div className="col-md-3 texto-cases">
                     <h4>{this.props.titulo}</h4>
                 </div>
-                <div className="col-sm-10 logo-startups-ship">
+                <div className="col-md-9 logo-startups-ship">
                     <a href="https://99app.com/" target="_blank">
                         <img className="logo-99 responsive" src={logo_99} alt="99"/>
                     </a>

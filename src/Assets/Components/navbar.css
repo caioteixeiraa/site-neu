@@ -1,36 +1,26 @@
 .navbar-comp {
-    width: 100%;
-    font-family: "Montserrat Medium", sans-serif;
+    font-family: "Montserrat Light", sans-serif;
     font-size: 0.9rem;
+    align-content: center;
+    text-align: center;
 }
 
 .logo-neu {
     width: 50%;
 }
 
-.flex-end {
-    justify-content: flex-end;
-
+.texto-branco {
+    color: #e0e0e0;
 }
 
-ul {
-    list-style-type: none;
-    height: 8px;
-}
-
-li {
-    border-bottom: 1px solid transparent;
-    transition: border-bottom 0.3s;
-    float: left;
-  }
-  
-  li a {
-    color: white;
+.nav-item {
+    margin-right: 1.3rem;
     text-align: center;
     text-decoration: none;
-  }
+    transition: 0.15s;
+}
 
-
-li:hover {
+.nav-item:hover {
+    color: #ffffff;
     border-bottom: 2px solid #EBC330;
 }

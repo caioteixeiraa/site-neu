@@ -10,6 +10,11 @@
     width: 50%;
 }
 
+.cardneu {
+  padding: 2em;
+  justify-content: flex-end;
+}
+
 .card-title {
     margin-bottom: 0.75rem;
     font-family: 'Montserrat Bold', sans-serif;

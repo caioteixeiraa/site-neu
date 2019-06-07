@@ -1,6 +1,8 @@
 import * as React from 'react';
 import './footer.css';
 import MapsInova from '../img/screencapture-google-maps-place-InovaLab-Poli-23-5570386-46-7320631-18z-data-4m5-3m4-1s0x0-0xcac47aef5f2195ef-8m2-3d-23-5567047-4d-46-7331657-2019-03-.png'
+import {Navbar, Nav, NavbarCollapse, NavbarContext, NavbarBrand, NavbarToggle, NavContext, NavItem, NavLink} from 'react-bootstrap';
+
 
 export class Footer extends React.Component{
     render() {
@@ -21,14 +23,18 @@ export class Footer extends React.Component{
                 <div className="container-fluid linha-azul">
                 </div>
                 <div className="navbar-footer container">
-                        <a className= "item-nav-footer" href="#">Sobre o NEU</a>
-                        <a className= "item-nav-footer" href="/StartupLAB">Pré-aceleração</a>
-                        <a className= "item-nav-footer" href="/StartupSHIP">Estágios</a>
-                        <a className= "item-nav-footer" href="#">Eventos</a>
-                        <a className= "item-nav-footer" href="#">Parcerias</a>
-                        <a className= "item-nav-footer" href="#">E-book</a>
-                        <a className= "item-nav-footer" href="#">Cursos Online</a>
-                        <button type="button col-lg-6 col-md-6 col-sm-8 col-xs-2" className="button-secondary-footer" href="#">Fale Conosco</button>
+                <Navbar expand="lg" className="navbar-comp">
+                <Nav className="mr-auto">
+                    <Nav.Link className="item-nav-footer" href="#"><div className="texto-branco">Sobre o NEU</div></Nav.Link>
+                    <Nav.Link className="item-nav-footer"href="/StartupLab"><div className="texto-branco">Pré-aceleração</div></Nav.Link>
+                    <Nav.Link className="item-nav-footer"href="/StartupShip"><div className="texto-branco">Estágios</div></Nav.Link>
+                    <Nav.Link className="item-nav-footer"href="#"><div className="texto-branco">Eventos</div></Nav.Link>
+                    <Nav.Link className="item-nav-footer"href="#"><div className="texto-branco">Parcerias</div></Nav.Link>
+                    <Nav.Link className="item-nav-footer"href="#"><div className="texto-branco">E-book</div></Nav.Link>
+                    <Nav.Link className="item-nav-footer"href="#"><div className="texto-branco">Cursos Online</div></Nav.Link>
+                    <Nav.Link className="item-nav-footer"href="#"><div className="texto-branco">Fale Conosco</div></Nav.Link>
+                </Nav>
+                </Navbar>
                 </div>
                 <div>
                     <p className="copyright-neu"> &copy; NÚCLEO DE EMPREENDEDORISMO DA USP. TODOS OS DIREITOS RESERVADOS.</p>
