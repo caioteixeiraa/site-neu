@@ -10,6 +10,11 @@
     width: 50%;
 }
 
+.cardneu {
+  padding: 2em;
+  justify-content: flex-end;
+}
+
 .por_cima {
     position: absolute;
     z-index: 1;

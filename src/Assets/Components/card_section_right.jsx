@@ -7,8 +7,9 @@ export class CardSectionRight extends React.Component {
     render() {
         return (
             <div className="row startupship">
-                <div className="container col-md-5 cardneu por_cima">
-                    <div className="container card">
+                <img className="logo-SHIP" src={imgSHIP} alt="startupSHIP" />
+                <div className="container por_cima">
+                    <div className="container card cardneu col-md-7">
                         <div className="card-body">
                             <h2 className="card-title">Estágios em startups</h2>
                             <h4 className="card-subtitle">Quer estagiar em uma startup?</h4>
@@ -16,8 +17,7 @@ export class CardSectionRight extends React.Component {
                             <a href="/StartupSHIP"><button type="button" className="button-primary">Saber mais</button></a>
                         </div>
                     </div>
-                </div>
-                <img className="logo-SHIP" src={imgSHIP} alt="startupSHIP" />
+                </div>            
             </div>
         )
     }

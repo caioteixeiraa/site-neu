@@ -26,28 +26,32 @@
     margin-right: 4em;
 }
 
+.margem-direita-5em {
+    margin-right: 5em;
+}
+
 .tamanho-img-4vw {
-    width: 4vw;
+    width: 4em;
     height: 100%;
 }
 
 .tamanho-img-6vw {
-    width: 6vw;
+    width: 6em;
     height: 100%;
 }
 
 .tamanho-img-8vw {
-    width: 8vw;
+    width: 8em;
     
 }
 
 .tamanho-img-10vw {
-    width: 10vw;
+    width: 11em;
     
 }
 
 .tamanho-img-14vw {
-    width: 14vw;
+    width: 15em;
     
 }
 

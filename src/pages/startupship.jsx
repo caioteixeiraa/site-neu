@@ -8,9 +8,6 @@ import { SecaoIcones } from '../Assets/Components/secao_icones';
 import { ComoFuncionaShip } from '../Assets/Components/como_funciona_ship';
 import { SecaoDepoimentos } from '../Assets/Components/secao_depoimentos';
 import { Footer } from '../Assets/Components/footer';
-import LogoMVISIA from '../Assets/img/logos-startups/logo-mvisia.svg';
-import LogoMobly from '../Assets/img/logos-startups/logo-mobly.svg';
-import LogoIngresse from '../Assets/img/logos-startups/ingresse-06.svg';
 
 export class StartupShipPage extends React.Component {
   constructor(props){
@@ -19,8 +16,15 @@ export class StartupShipPage extends React.Component {
   render() {
     return (
       <div className="">
-        <Banner2 />
-        <DescricaoPrograma />
+        <Banner2 name="logo-ship" />
+        <DescricaoPrograma 
+        title="Estágios em Startups"
+        subtitle="Quer estagiar em uma startup?"
+         text={["O StartupSHIP é o programa de ", <b>conexão de alunos USP com as startups da nossa Rede</b>,". Temos como objetivo inserir alunos no ecossistema de empreendedorismo para que adquiram ", <b>muito aprendizado em um ambiente de autonomia</b>,". Se você é de uma startup e tem uma vaga de estágio, entre em contato conosco:"]} 
+        btnprimary="Quero estagiar"
+        btnsecondary="Tenho uma vaga"
+        link_primeirobotao="http://bit.ly/quero_estagiar_em_uma_startup"
+        link_segundobotao="http://bit.ly/procuro_talentos_USP" />
         <Numbers 
         numero1="+30"
         descricao1_1="Vagas fechadas"

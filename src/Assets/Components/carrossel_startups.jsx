@@ -22,28 +22,28 @@ export class CarrosselStartups extends React.Component {
                 <h2 className="subtitulo-carrossel">Startups que já contrataram pelo StartupSHIP</h2>
                 <div className="container-fluid carrossel linha">
                 <a href="https://flowsense.com.br/" target="_blank">
-                    <img src={logo_flowsense} alt="Flowsense" className="tamanho-img-14vw margem-direita-4em"/>
+                    <img src={logo_flowsense} alt="Flowsense" className="tamanho-img-14vw margem-direita-3em"/>
                 </a>
                 <a href="https://99app.com/" target="_blank">
-                    <img src={logo_99} alt="99" className="tamanho-img-4vw margem-direita-4em" />
-                </a>
-                <a href="https://www.mobly.com.br/" target="_blank">
-                    <img src={logo_mobly} alt="Mobly" className="tamanho-img-8vw margem-direita-4em"/>
-                </a>
-                <a href="https://www.ingresse.com/" target="_blank">
-                    <img src={logo_ingresse} alt="Ingresse" className="tamanho-img-10vw margem-direita-4em" />
-                </a>
-                <a href="https://www.yellow.app/" target="_blank">
-                    <img src={logo_yellow} alt="Yellow" className="tamanho-img-8vw margem-direita-4em"/>
-                </a>
-                <a href="http://mvisia.com.br/" target="_blank">
-                    <img src={logo_mvisia} alt="MVISIA" className="tamanho-img-10vw margem-direita-4em"/>
+                    <img src={logo_99} alt="99" className="tamanho-img-4vw margem-direita-5em" />
                 </a>
                 <a href="https://celebrar.co/" target="_blank">
                     <img src={logo_celebrar} alt="Celebrar.co" className="tamanho-img-10vw margem-direita-4em"/>
                 </a>
+                <a href="https://www.ingresse.com/" target="_blank">
+                    <img src={logo_ingresse} alt="Ingresse" className="tamanho-img-10vw margem-direita-5em" />
+                </a>
+                <a href="https://www.yellow.app/" target="_blank">
+                    <img src={logo_yellow} alt="Yellow" className="tamanho-img-8vw margem-direita-5em"/>
+                </a>
+                <a href="http://mvisia.com.br/" target="_blank">
+                    <img src={logo_mvisia} alt="MVISIA" className="tamanho-img-10vw margem-direita-5em"/>
+                </a>
                 <a href="https://cuidas.com.br/" target="_blank">
-                    <img src={logo_cuidas} alt="Cuidas" className="tamanho-img-8vw margem-direita-4em"/>
+                    <img src={logo_cuidas} alt="Cuidas" className="tamanho-img-8vw margem-direita-5em"/>
+                </a>
+                <a href="https://www.mobly.com.br/" target="_blank">
+                    <img src={logo_mobly} alt="Mobly" className="tamanho-img-8vw margem-direita-5em"/>
                 </a>
                 <a href="https://www.genera.com.br/" target="_blank">
                     <img src={logo_genera} alt="Genera" className="tamanho-img-10vw margem-direita-4em"/>

@@ -53,19 +53,25 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    text-align: center;
 }
 
 .item-nav-footer {
-    font-family: 'Montserrat Medium', sans-serif;
+    font-family: 'Montserrat Normal', sans-serif;
     font-size: 1em;
     text-decoration: none;
     color: #fff;
     text-emphasis: none;
+    margin-right: 2.3rem;
+    text-align: center;
+    transition: 0.15s;
 }
 
 .item-nav-footer:hover {
     text-emphasis: none;
         text-decoration: underline;
+        color: #fff;
+        border-bottom: 2px solid #fff;
 }
 
 .button-secondary-footer {

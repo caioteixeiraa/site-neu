@@ -2,15 +2,14 @@ import * as React from 'react';
 import './card_section_left.css';
 import { CardNEU } from './card_neu';
 import imgLAB from '../img/home_StartupLAB.png';
-import { Link } from 'react-router-dom';
 
 export class CardSectionLeft extends React.Component{
     render() {
         return (
             <div className="row startuplab">
                 <img className="logo-LAB" src={imgLAB} alt="startupLAB" />
-                <div className="container col-4 cardneu">
-                    <div className="container card">
+                <div className="container">
+                    <div className="container card cardneu col-md-7 align-self-end">
                         <div className="card-body">
                             <h2 className="card-title">Pré-aceleração</h2>
                             <h4 className="card-subtitle">Tem uma ideia e quer empreender?</h4>

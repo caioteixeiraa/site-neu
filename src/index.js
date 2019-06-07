@@ -8,12 +8,14 @@ import { Home } from './pages/home';
 import { StartupShipPage } from './pages/startupship';
 import 'bootstrap/dist/css/bootstrap.css';
 import './index.css';
+import { StartupLabPage } from './pages/startuplab';
 
 const routing = (
     <Router>
       <div>
         <Route exact path="/" component={Home} />
         <Route path="/StartupSHIP" component={StartupShipPage} />
+        <Route path="/StartupLAB" component={StartupLabPage} />
       </div>
     </Router>
     
