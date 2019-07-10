@@ -39,7 +39,17 @@ export class StartupShipPage extends React.Component {
         descricao4_1="Currículos"
         descricao4_2="no banco" />
         <CarrosselStartups />
-        <SecaoIcones />
+        <SecaoIcones
+        tituloh2="Por que estagiar em uma startup?"
+        icone_1="happiness"
+        subtituloh4_1="Ambiente de aprendizado"
+        texto_1="O trabalho em uma startup irá te proporcionar um aprendizado inigualável! Você vai sentir que está fazendo a diferença dentro da empresa!" 
+        icone_2="working-briefcase"
+        subtituloh4_2="Oportunidade de crescer na empresa"
+        texto_2="Trabalhar numa startup é vê-la crescer e saber que você está crescendo exponencialemnte assim como ela."
+        icone_3="like"
+        subtituloh4_3="Descontração e mão na massa"
+        texto_3="O ambiente de uma startup é muitas vezes descontraído, dando prioridade para que seus funcionários se sintam confortáveis."/>
         <ComoFuncionaShip />
         <SecaoDepoimentos />
         <Footer />
