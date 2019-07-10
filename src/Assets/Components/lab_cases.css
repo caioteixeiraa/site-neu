@@ -1,0 +1,52 @@
+.cases-de-sucesso {
+    display: flex;
+    align-items: center;
+    margin-top: 3em;
+}
+
+.texto-2em {
+    font-family: 'Montserrat Bold', sans-serif;
+    font-weight: 700;
+    color: #003e60;
+}
+
+.logo-startups-lab {
+    justify-content: flex-end;
+}
+
+.img-4em {
+    width: 4em;
+    height: auto;
+    margin-left: 2rem;
+}
+
+.img-6em {
+    width: 6em;
+    height: auto;
+    margin-left: 2rem;
+}
+
+.img-7em {
+    width: 7em;
+    height: auto;
+    margin-left: 2rem;
+}
+
+.img-9em {
+    width: 9em;
+    height: auto;
+    margin-left: 2rem;
+}
+
+@media only screen and (max-width: 700px){
+    .responsive {
+      width: 49.99999%;
+      margin: 6px 0;
+    }
+  }
+  
+  @media only screen and (max-width: 500px){
+    .responsive {
+      width: 100%;
+    }
+  }

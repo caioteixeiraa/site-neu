@@ -19,6 +19,17 @@
     text-decoration: underline #12a2da;
 }
 
+.no-link {
+    color: #838593;
+}
+
+.icone-timeline {
+    width: 1.3rem;
+    margin-left: 1em;
+    margin-right: 1.5em;
+    margin-bottom: 0.4em;
+}
+
 h6 {
     color: #12a2da;
     font-family: 'Montserrat Light', sans-serif;

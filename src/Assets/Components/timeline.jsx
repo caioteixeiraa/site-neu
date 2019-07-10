@@ -1,7 +1,12 @@
 import * as React from 'react';
-import './timeline.css'
+import './timeline.css';
+import icone_video from '../img/video-player.svg';
+import icone_download from '../img/download-arrow.svg';
 
-export class Timeline extends React.Component{
+export class TimelineShip extends React.Component{
+    constructor(props){
+        super(props);
+    }
     render() {
         return (
             <div>
@@ -14,8 +19,14 @@ export class Timeline extends React.Component{
                     <div>
                         <h4 className="titulo-timeline margem-top-3em">2 - Entraremos em contato</h4>
                         <p className="margem-top-1em">Entraremos em contato para confirmarmos que você está interessado no StartupSHIP! Enquanto isso, o que acha de dicas para fazer um currículo?</p>
-                        <a className="link" href="#"><h6 className="margem-top-2em">Modelo de currículo</h6></a>
-                        <a className="link" href="#"><h6 className="margem-top-1em">Vídeo - como montar um currículo?</h6></a>
+                        <div className="row align-items-center margem-top-2em">
+                            <img className="icone-timeline" src={icone_download} alt=""/>
+                            <a className="link" href="#"><h6 className="">Modelo de currículo</h6></a>
+                        </div>
+                        <div className="row align-items-center margem-top-1em">
+                            <img className="icone-timeline" src={icone_video} alt=""/>
+                            <a className="link" href="#"><h6 className="">Vídeo - como montar um currículo?</h6></a>
+                        </div>
                     </div>
                     <div>
                         <h4 className="titulo-timeline margem-top-3em">3 - Encontramos a melhor vaga em startup para você</h4>
@@ -24,8 +35,14 @@ export class Timeline extends React.Component{
                     <div>
                         <h4 className="titulo-timeline margem-top-3em">4 - Aguarde o contato da startup</h4>
                         <p className="margem-top-1em">Depois de enviarmos o currículo para a startup, o que acha de aprender um pouco sobre entrevistas?</p>
-                        <a className="link" href="#"><h6 className="margem-top-2em">Dicas de como estar preparado para uma entrevista</h6></a>
-                        <a className="link" href="#"><h6 className="margem-top-1em">Vídeo - como se preparar para uma entrevista?</h6></a>
+                        <div className="row align-items-center margem-top-2em">
+                            <img className="icone-timeline" src={icone_download} alt=""/>
+                            <a className="link" href="#"><h6 className="">Dicas de como estar preparado para uma entrevista</h6></a>
+                        </div>
+                        <div className="row align-items-center margem-top-1em">
+                            <img className="icone-timeline" src={icone_video} alt=""/>
+                            <a className="link" href="#"><h6 className="">Vídeo - como se preparar para uma entrevista?</h6></a>
+                        </div>
                     </div>
                     <div>
                         <h4 className="titulo-timeline margem-top-3em">5 - Mande-nos feedback do que achou!</h4>

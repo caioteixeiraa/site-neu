@@ -1,7 +1,6 @@
 import * as React from 'react';
 import './banner2.css';
 import { NavbarNEU } from './navbar';
-import LogoLAB from '../img/logo-lab.png';
 
 export class Banner2 extends React.Component{
     constructor(props){
