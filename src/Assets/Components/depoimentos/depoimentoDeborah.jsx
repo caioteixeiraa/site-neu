@@ -13,7 +13,7 @@ export class DepoimentoDeborah extends React.Component {
                 <img src={Deborah} alt="" id="" className="img-rounded img-center img-depo" />
                 <div className="padding-depo">
                     <div className="content-depo">
-                        <p className="texto-depo">"Lorem ipsum dolor sit amet, consectetur dipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua!" </p>
+                        <p className="texto-depo">"Tivemos uma experiência ótima com o Yshay, estagiário que contratamos através da ponte do NEU. Ele era parte essencial do time, trabalhou em projetos muito importantes pra nossa equipe de desenvolvimento, e trouxe uma energia muito boa para nossa empresa. Estamos ansiosos pra ele voltar." </p>
                         <h5 className="nome-depo">Deborah Alves</h5>
                         <h5 className="cargo-depo">Co-founder e CTO</h5>
                     </div>

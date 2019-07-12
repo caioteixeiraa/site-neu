@@ -9,11 +9,11 @@ export class DepoimentoGabriel extends React.Component {
     }
     render() {
         return (
-            <div className="card-depo col-md-3 margin-right-2em top-amarelo">
+            <div className="card-depo col-md-3 margin-right-2em top-azul">
                 <img src={Gabriel} alt="" id="" className="img-rounded img-center img-depo" />
                 <div className="padding-depo">
                     <div className="content-depo">
-                        <p className="texto-depo">"Lorem ipsum dolor sit amet, consectetur dipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua!" </p>
+                        <p className="texto-depo">"A Cuidas acabou sendo a melhor experiência que eu passei em estágios na Poli-USP. A equipe era composta só de pessoas incríveis trabalhando por um propósito que todos acreditam. Trabalhar em ambientes assim traz o melhor de você e te faz querer mais, ficar melhor, crescer como pessoa." </p>
                         <h5 className="nome-depo">Gabriel Yshay</h5>
                         <h5 className="cargo-depo">Estagiário de Desenvolvimento</h5>
                     </div>

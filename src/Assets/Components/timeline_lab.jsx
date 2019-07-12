@@ -15,10 +15,10 @@ export class TimelineLab extends React.Component{
                     <div>
                         <h4 className="titulo-timeline">1 - Perfil e Comportamento</h4>
                         <p className="margem-top-1em">Desenvolva as primeiras habilidades e a mentalidade empreendedora.</p>
-                        <div className="row align-items-center margem-top-2em">
+                        <a className="link row align-items-center margem-top-2em" href="https://www.youtube.com/watch?v=O0biYyoQc2Y">
                             <img className="icone-timeline" src={icone_video} alt=""/>
-                            <a className="link" href="#"><h6 className="">Vídeo - por que empreender?</h6></a>
-                        </div>
+                            <h6 className="">Vídeo - por que empreender?</h6>
+                        </a>
                     </div>
                     <div>
                         <h4 className="titulo-timeline margem-top-3em">2 - Entendendo oportunidades</h4>
@@ -31,30 +31,30 @@ export class TimelineLab extends React.Component{
                     <div>
                         <h4 className="titulo-timeline margem-top-3em">3 - Canvas e modelos de negócios</h4>
                         <p className="margem-top-1em">Familiarize-se com esta ferramenta estratégica e construa os seus Canvas Proposta de Valore Business Model Canvas.</p>
-                        <div className="row align-items-center margem-top-2em">
+                        <a className="link row align-items-center margem-top-2em" href="../arquivos_download/Canvas_NEU_V6-2018072018.pdf" download>
                             <img className="icone-timeline" src={icone_download} alt=""/>
-                            <a className="link" href="#"><h6 className="">Modelo do Canvas em PDF</h6></a>
-                        </div>
-                        <div className="row align-items-center margem-top-1em">
+                            <h6 className="">Modelo do Canvas em PDF</h6>
+                        </a>
+                        <a className="link row align-items-center margem-top-1em" href="https://youtu.be/kCWTeDZpUHY">
                             <img className="icone-timeline" src={icone_video} alt=""/>
-                            <a className="link" href="#"><h6 className="">Como usar o canvas de modelo de negócios</h6></a>
-                        </div>
+                            <h6 className="">Como usar o canvas de modelo de negócios</h6>
+                        </a>
                     </div>
                     <div>
                         <h4 className="titulo-timeline margem-top-3em">4 - Entendendo seu usuário</h4>
                         <p className="margem-top-1em">Descubra tudo sobre eles com muitas entrevistas e outras ferramentas para desenvolvimento de personas.</p>
-                        <div className="row align-items-center margem-top-2em">
+                        <a className="link row align-items-center margem-top-2em" href="https://www.youtube.com/watch?v=1Evwgu369Jw">
                             <img className="icone-timeline" src={icone_video} alt=""/>
-                            <a className="link" href="#"><h6 className="">Empatia</h6></a>
-                        </div>
+                            <h6 className="">Empatia</h6>
+                        </a>
                     </div>
                     <div>
                         <h4 className="titulo-timeline margem-top-3em">5 - Construção do MVP</h4>
                         <p className="margem-top-1em">Aprenda a construir seu Mínimo Produto Viável da maneira mais rápida, eficiente e barata.</p>
-                        <div className="row align-items-center margem-top-2em">
+                        <a className="link row align-items-center margem-top-2em" href="https://www.youtube.com/watch?v=et95f_cwNnw">
                             <img className="icone-timeline" src={icone_video} alt=""/>
-                            <a className="link" href="#"><h6 className="">O que é um MVP?</h6></a>
-                        </div>
+                            <h6 className="">O que é um MVP?</h6>
+                        </a>
                     </div>
                     <div>
                         <h4 className="titulo-timeline margem-top-3em">6 - Validação do MVP</h4>
@@ -62,7 +62,9 @@ export class TimelineLab extends React.Component{
                     </div>
                 </div>
                 <div className="container botoes-ship row">
-                    <a href="http://bit.ly/quero_estagiar_em_uma_startup" target="_blank"><button type="button col-lg-6 col-md-6 col-sm-8 col-xs-2" className="button-primary" href="#">Inscrever-me</button></a>
+                    <a href="http://bit.ly/typeformLab" target="_blank"><button type="button col-lg-6 col-md-6 col-sm-8 col-xs-2" className="button-primary" href="#">Inscrever-me</button></a>
+                    <a href="#" target="_blank"><button type="button col-lg-6 col-md-6 col-sm-8 col-xs-2" className="button-secondary" href="#">Quero ser mentor</button></a>
+
                 </div>
             </div>
         )
