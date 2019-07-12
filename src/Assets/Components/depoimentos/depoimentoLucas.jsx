@@ -13,12 +13,12 @@ export class DepoimentoLucas extends React.Component {
                 <img src={Lucas} alt="" id="" className="img-rounded img-center img-depo" />
                 <div className="padding-depo">
                     <div className="content-depo">
-                        <p className="texto-depo">"Lorem ipsum dolor sit amet, consectetur dipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua!" </p>
+                        <p className="texto-depo">"Para atingirmos nosso objetivo, é imprescindível termos pessoas boas. O NEU nos proporcionou exatamente isso! Nosso contato com o núcleo nos ajudou a encontrar a nossa estagiária Thabata que se apropriou rapidamente do desafio. Ela busca sempre aprender e hoje contribui muito para a Pier."</p>
                         <h5 className="nome-depo">Lucas Prado</h5>
                         <h5 className="cargo-depo">Co-founder e CMO</h5>
                     </div>
                     <a href="https://www.pier.digital/" target="_blank">
-                        <img src={logo_pier} alt="" id="" className="startup-depo img-center margin-4em" />
+                        <img src={logo_pier} alt="" id="" className="img-center img-pier" />
                     </a>
                 </div>
             </div>    

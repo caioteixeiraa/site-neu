@@ -13,15 +13,16 @@ export class DepoimentoThabata extends React.Component {
                 <img src={Thabata} alt="" id="" className="img-rounded img-center img-depo" />
                 <div className="padding-depo">
                     <div className="content-depo">
-                        <p className="texto-depo">"Lorem ipsum dolor sit amet, consectetur dipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua!" </p>
+                        <p className="texto-depo">"Agradeço muito a conexão, pois se não fosse pelo NEU eu não teria encontrado a Pier e nem me desenvolvendo tanto como hoje. A melhor parte de trabalhar em uma startup é ver ela crescer sabendo que tem o seu dedo ali. A Pier possibilita isso, aumentando o aprendizado exponencialmente. " </p>
                         <h5 className="nome-depo">Thabata Pontes</h5>
                         <h5 className="cargo-depo">Estagiária de Marketing</h5>
                     </div>
                     <a href="https://www.pier.digital/" target="_blank">
-                        <img src={logo_pier} alt="" id="" className="img-pier img-center margin-4em" />
+                        <img src={logo_pier} alt="" id="" className="img-pier img-center" />
                     </a>
                 </div>
             </div>    
         )
     }
 }
+
