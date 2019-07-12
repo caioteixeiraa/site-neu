@@ -1,6 +1,6 @@
 import * as React from 'react';
 import './depoimento.css';
-import logo_pier from './pier.png';
+import logo_pier from './pier final-01.png';
 import Thabata from './Thabata.png';
 
 export class DepoimentoThabata extends React.Component {
