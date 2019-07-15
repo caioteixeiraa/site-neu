@@ -14,14 +14,18 @@ export class StartupLabPage extends React.Component {
   render() {
     return (
       <div className="">
-        <Banner2 name="logo-lab"/>
+        <Banner2 
+        name="logo-lab"
+        descricao="O programa de pré-aceleração de startups aos alunos e alunas USP"
+        linkbotao="http://bit.ly/typeformLab"
+        conteudobotao="Inscrever-me" />/>
         <DescricaoPrograma 
         title="Pré-aceleração"
         subtitle="Tem uma ideia e quer empreender?"
         text={["O StartupLAB é o programa de ", <b>pré-aceleração </b>,"e apoio a startups emergentes da USP. ", <b>Se você tem uma ideia e quer transformá-la em um negócio</b>,", ajudamos em toda sua jornada, com materiais selecionados e ", <b>mentorias exclusivas do time NEU</b>, ". Para você, que já empreende, temos as mentorias específicas com empreendedores, para você ", <b>entender mais do seu mercado </b>, "ou ", <b>conversar com especialistas em tecnologia</b>, "."]}
         btnprimary="Inscrever-se"
         btnsecondary="Quero ser mentor"
-        link_primeirobotao=""
+        link_primeirobotao="http://bit.ly/typeformLab"
         link_segundobotao=""/>
         <Numbers 
         numero1="+40h"
