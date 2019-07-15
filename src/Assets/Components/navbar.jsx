@@ -12,7 +12,7 @@ export class NavbarNEU extends React.Component{
                 <Navbar.Toggle aria-controls="basic-navbar-nav" className="texto-branco"/>
                 <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="mr-auto">
-                    <Nav.Link className="nav-item" href="#"><div className="texto-branco">Sobre o NEU</div></Nav.Link>
+                    <Nav.Link className="nav-item" href="/Sobre"><div className="texto-branco">Sobre o NEU</div></Nav.Link>
                     <Nav.Link className="nav-item"href="/StartupLab"><div className="texto-branco">Pré-aceleração</div></Nav.Link>
                     <Nav.Link className="nav-item"href="/StartupShip"><div className="texto-branco">Estágios</div></Nav.Link>
                     <Nav.Link className="nav-item"href="#"><div className="texto-branco">Eventos</div></Nav.Link>

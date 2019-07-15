@@ -16,7 +16,11 @@ export class StartupShipPage extends React.Component {
   render() {
     return (
       <div className="">
-        <Banner2 name="logo-ship" />
+        <Banner2 
+        name="logo-ship"
+        descricao="Conexão de alunos USP a vagas de estágio em startups"
+        linkbotao="http://bit.ly/quero_estagiar_em_uma_startup"
+        conteudobotao="Quero estagiar" />
         <DescricaoPrograma 
         title="Estágios em Startups"
         subtitle="Quer estagiar em uma startup?"

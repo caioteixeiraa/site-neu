@@ -10,7 +10,7 @@
 .carrossel-depoimentos {
     width: 100%;
     overflow: scroll;
-    align-items: center;
+    align-items: flex-start;
 }
 
 @media only screen and (max-width: 1000px) {

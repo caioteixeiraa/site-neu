@@ -1,6 +1,6 @@
 import * as React from 'react';
 import './depoimento.css';
-import logo_pier from './pier.png';
+import logo_pier from './pier final-01.png';
 import Lucas from './LucasPrado.png';
 
 export class DepoimentoLucas extends React.Component {
