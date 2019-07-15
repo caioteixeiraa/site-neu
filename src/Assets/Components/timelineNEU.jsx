@@ -24,13 +24,13 @@ export class TimelineNEU extends React.Component{
                         </div>
                     </div>
                     <div>
-                        <h4 className="titulo-timeline margem-top-3em">2012</h4>
+                        <h4 className="titulo-timeline margem-top-3em azul">2012</h4>
                         <p className="margem-top-1em">Com essa dor, resolveram se reunir para um apoio mútuo - e com o tempo perceberam que esse apoio poderia transbordar para outros alunos.</p>
                         <div className="row align-items-center margem-top-2em">
                         </div>
                     </div>
                     <div>
-                        <h4 className="titulo-timeline margem-top-3em">2013</h4>
+                        <h4 className="titulo-timeline margem-top-3em azul">2013</h4>
                         <p className="margem-top-1em">Surgiram assim, nossos primeiros eventos e atividades, como o Startupapo - um bate-papo com fundadores de startups contando suas experiências para os alunos.</p>
                         <div className="row align-items-center margem-top-2em">
                             <img className="logo-timeline" src={lean_survey} alt="Lean Survey"/>
@@ -39,17 +39,17 @@ export class TimelineNEU extends React.Component{
                         <h4 className="h4-timeline col-md-7">Started - Maior evento de empreendedorismo da USP</h4>
                     </div>
                     <div>
-                        <h4 className="titulo-timeline margem-top-3em">2015</h4>
+                        <h4 className="titulo-timeline margem-top-3em azul">2015</h4>
                             <img className="logo-timeline margin-top" src={MVISIA} alt="MVISIA"/>
                         <h4 className="h4-timeline margin-top">Festival de Empreendedorismo da USP - FEU</h4>
                     </div>
                     <div>
-                        <h4 className="titulo-timeline margem-top-3em">2016</h4>
+                        <h4 className="titulo-timeline margem-top-3em azul">2016</h4>
                         <img className="logo-timeline margin-top" id="oraculo" src={oraculo} alt="Oraculo Meteorologia"/>
                         <h4 className="h4-timeline margin-top">1º HackathonUSP</h4>
                     </div>
                     <div>
-                        <h4 className="titulo-timeline margem-top-3em">2017</h4>
+                        <h4 className="titulo-timeline margem-top-3em azul">2017</h4>
                         <h4 className="h4-timeline margin-top">1º Treinamento de Novos Piratas e Lançamento do 1º curso do NEU de criação de startups.</h4>
                         <a className="link row align-items-center margem-top-2em" href="../arquivos_download/NEU - Resultados de 2017 (1)_compressed.pdf" download>
                             <img className="icone-timeline" src={icone_download} alt=""/>
@@ -57,7 +57,7 @@ export class TimelineNEU extends React.Component{
                         </a>
                     </div>
                     <div>
-                        <h4 className="titulo-timeline margem-top-3em">2018</h4>
+                        <h4 className="titulo-timeline margem-top-3em azul">2018</h4>
                         <h4 className="h4-timeline margin-top">Lançamento de +5 cursos do NEU de criação de startups. União com a Poli Júnior para realizar o SER Empreendedor.</h4>
                         <a className="link row align-items-center margem-top-2em" href="../arquivos_download/NEU - Resultados de 2018_s_compressed.pdf" download>
                             <img className="icone-timeline" src={icone_download} alt=""/>
