@@ -25,7 +25,7 @@ export class Footer extends React.Component{
                 <div className="navbar-footer container">
                 <Navbar expand="lg" className="navbar-comp">
                 <Nav className="mr-auto">
-                    <Nav.Link className="item-nav-footer" href="#"><div className="texto-branco">Sobre o NEU</div></Nav.Link>
+                    <Nav.Link className="item-nav-footer" href="/Sobre"><div className="texto-branco">Sobre o NEU</div></Nav.Link>
                     <Nav.Link className="item-nav-footer"href="/StartupLab"><div className="texto-branco">Pré-aceleração</div></Nav.Link>
                     <Nav.Link className="item-nav-footer"href="/StartupShip"><div className="texto-branco">Estágios</div></Nav.Link>
                     <Nav.Link className="item-nav-footer"href="#"><div className="texto-branco">Eventos</div></Nav.Link>

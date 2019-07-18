@@ -2,7 +2,7 @@
     background-image: url(../img/home_banner.png);
     width: 100%;
     margin: 0;
-    height: 75vh;
+    height: 45em;
     flex: 6;
     background-position: center;
     background-repeat: no-repeat;
@@ -17,7 +17,7 @@
 }
 
 #logo-ship {
-    width: 40%;
+    width: 30vw;
 }
 
 .home-banner p {
@@ -54,4 +54,31 @@
 
 .button-secondary-banner:hover {
   padding: 0.75rem 3rem;
+}
+
+@media only screen and (max-width: 576px) {
+
+}
+
+@media only screen and (max-width: 768px) {
+  .texto-banner {
+    color: #FFFFFF;
+    font-size: 5em;
+  }
+
+  .title {
+    color: #FFFFFF;
+    font-size: 2.0em;
+    font-family: 'Montserrat Bold', sans-serif;
+    margin-top: 10%;
+}
+
+}
+
+@media only screen and (max-width: 992px) {
+
+}
+
+@media only screen and (max-width: 1200px) {
+  
 }
