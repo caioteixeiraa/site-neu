@@ -5,7 +5,7 @@
 }
 
 .logo-startups-ship {
-    justify-content: flex-end;
+    align-content: space-between;
 }
 
 .logo-99 {

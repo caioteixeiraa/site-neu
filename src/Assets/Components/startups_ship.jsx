@@ -11,19 +11,21 @@ export class StartupsShip extends React.Component {
     render() {
         return (    
             <div className="container cases-do-ship">
-                <div className="col-md-3 texto-cases">
-                    <h4>{this.props.titulo}</h4>
-                </div>
-                <div className="col-md-9 logo-startups-ship">
-                    <a href="https://99app.com/" target="_blank">
-                        <img className="logo-99 responsive" src={logo_99} alt="99"/>
-                    </a>
-                    <a href="https://www.ingresse.com/" target="_blank">
-                        <img className="logo-ingresse responsive" src={logo_ingresse} alt="Ingresse"/>
-                    </a>
-                    <a href="https://www.mobly.com.br/" target="_blink">
-                        <img className="logo-mobly responsive" src={logo_mobly} alt="Mobly"/>
-                    </a>
+                <div className="container row align-items-flexend logo-startups-ship">
+                    <div className="col-md-3 texto-cases">
+                        <h4>{this.props.titulo}</h4>
+                    </div>
+                    <div className="col-md-9">
+                        <a href="https://99app.com/" target="_blank">
+                            <img className="logo-99 responsive" src={logo_99} alt="99"/>
+                        </a>
+                        <a href="https://www.ingresse.com/" target="_blank">
+                            <img className="logo-ingresse responsive" src={logo_ingresse} alt="Ingresse"/>
+                        </a>
+                        <a href="https://www.mobly.com.br/" target="_blink">
+                            <img className="logo-mobly responsive" src={logo_mobly} alt="Mobly"/>
+                        </a>
+                    </div>
                 </div>
             </div>
         )
