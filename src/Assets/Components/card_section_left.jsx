@@ -22,3 +22,4 @@ export class CardSectionLeft extends React.Component{
         )
     }
 }
+
