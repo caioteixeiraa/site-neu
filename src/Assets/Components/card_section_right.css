@@ -5,14 +5,19 @@
 }
 
 .logo-SHIP {
-    margin-right: 0px;
-    position: relative;
-    width: 50%;
+  position: relative;
+  width: 50%;
+  margin-left: 60em;
 }
 
 .cardneu {
   padding: 2em;
-  justify-content: flex-end;
+  margin-left: 24em;
+}
+
+.margin-card {
+  position: absolute;
+  left: 12em;
 }
 
 .por_cima {

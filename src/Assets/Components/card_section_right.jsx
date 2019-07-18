@@ -9,7 +9,7 @@ export class CardSectionRight extends React.Component {
             <div className="row startupship">
                 <img className="logo-SHIP" src={imgSHIP} alt="startupSHIP" />
                 <div className="container por_cima">
-                    <div className="container card cardneu col-md-7">
+                    <div className="container card cardneu col-md-8 margin-card">
                         <div className="card-body">
                             <h2 className="card-title">Estágios em startups</h2>
                             <h4 className="card-subtitle">Quer estagiar em uma startup?</h4>

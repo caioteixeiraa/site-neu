@@ -1,6 +1,6 @@
 import * as React from 'react';
 import './navbar.css';
-import logo from '../img/logo-neu (1).png';
+import logo from '../img/logo-neu.png';
 import {Navbar, Nav} from 'react-bootstrap';
 
 export class NavbarNEU extends React.Component{
