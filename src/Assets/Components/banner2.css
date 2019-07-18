@@ -17,16 +17,16 @@
 }
 
 #logo-ship {
-    width: 30vw;
+    width: 30em;
 }
 
-.home-banner p {
+.texto-banner2 {
   color: #FFFFFF;
-  font-size: 1.3vw;
+  font-size: 1.5em;
   font-weight: 300;
   font-family: 'Montserrat Normal', sans-serif;
   line-height: 1.29;
-  margin-top: 3%;
+  margin-top: 2.5em;
 }
 
 .center {
@@ -49,7 +49,7 @@
   border-radius: 50px;
   transition: padding 0.3s;
   align-content: flex-start;
-  margin-top: 5%;
+  margin-top: 2.5em;
 }
 
 .button-secondary-banner:hover {
@@ -61,22 +61,17 @@
 }
 
 @media only screen and (max-width: 768px) {
-  .texto-banner {
-    color: #FFFFFF;
-    font-size: 5em;
-  }
 
-  .title {
-    color: #FFFFFF;
-    font-size: 2.0em;
-    font-family: 'Montserrat Bold', sans-serif;
-    margin-top: 10%;
-}
+  #logo-ship {
+    width: 22em;
+  }
 
 }
 
 @media only screen and (max-width: 992px) {
-
+  .home-banner {
+    height: 50em;
+}
 }
 
 @media only screen and (max-width: 1200px) {
