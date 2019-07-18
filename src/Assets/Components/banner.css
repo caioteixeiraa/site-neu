@@ -2,7 +2,7 @@
     background-image: url(../img/home_banner.png);
     width: 100%;
     margin: 0;
-    height: 75vh;
+    height: 45em;
     flex: 6;
     background-position: center;
     background-repeat: no-repeat;
@@ -13,8 +13,9 @@
 .texto-banner {
   color: #FFFFFF;
   font-size: 1.5em;
+  line-height: 1.3em;
   font-family: 'Montserrat Normal', sans-serif;
-  margin-top: 3%;
+  margin-top: 1.2em;
 }
 
 .center {
@@ -26,7 +27,7 @@
     color: #FFFFFF;
     font-size: 3.3em;
     font-family: 'Montserrat Bold', sans-serif;
-    margin-top: 10%;
+    margin-top: 2.5em;
 }
 
 .align-self-center {
@@ -56,7 +57,7 @@
   border-radius: 50px;
   transition: padding 0.3s;
   align-content: flex-start;
-  margin-top: 5%;
+  margin-top: 2.5em;
 }
 
 .button-secondary-banner:hover {
@@ -68,17 +69,6 @@
 }
 
 @media only screen and (max-width: 768px) {
-  .texto-banner {
-    color: #FFFFFF;
-    font-size: 5em;
-  }
-
-  .title {
-    color: #FFFFFF;
-    font-size: 2.0em;
-    font-family: 'Montserrat Bold', sans-serif;
-    margin-top: 10%;
-}
 
 }
 
