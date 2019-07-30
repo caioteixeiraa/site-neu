@@ -1,0 +1,12 @@
+.align-items-ebook {
+    display: flex;
+    align-items: flex-start;
+}
+
+.img-ebook { 
+    margin-top: 12em;
+    margin-right: auto;
+    margin-left: auto;
+    width: 1vw;
+    height: auto;
+}
