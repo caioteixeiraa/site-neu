@@ -17,7 +17,7 @@ export class NavbarNEU extends React.Component{
                     <Nav.Link className="nav-item"href="/StartupShip"><div className="texto-branco">Estágios</div></Nav.Link>
                     <Nav.Link className="nav-item"href="#"><div className="texto-branco">Eventos</div></Nav.Link>
                     <Nav.Link className="nav-item"href="#"><div className="texto-branco">Parcerias</div></Nav.Link>
-                    <Nav.Link className="nav-item"href="#"><div className="texto-branco">E-book</div></Nav.Link>
+                    <Nav.Link className="nav-item"href="/Ebook"><div className="texto-branco">E-book</div></Nav.Link>
                     <Nav.Link className="nav-item"href="#"><div className="texto-branco">Cursos Online</div></Nav.Link>
                     <Nav.Link className="nav-item"href="#"><div className="texto-branco">Fale Conosco</div></Nav.Link>
                 </Nav>

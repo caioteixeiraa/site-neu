@@ -10,6 +10,7 @@ import 'bootstrap/dist/css/bootstrap.css';
 import './index.css';
 import { StartupLabPage } from './pages/startuplab';
 import { SobreNEU } from './pages/sobre';
+import { Ebook } from './pages/ebook';
 
 const routing = (
     <Router>
@@ -18,6 +19,7 @@ const routing = (
         <Route path="/StartupSHIP" component={StartupShipPage} />
         <Route path="/StartupLAB" component={StartupLabPage} />
         <Route path="/Sobre" component={SobreNEU} />
+        <Route path="/Ebook" component={Ebook} />
       </div>
     </Router>
     
