@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { Banner2 } from '../Assets/Components/banner2';
+import { BannerEbook } from '../Assets/Components/bannerEbook';
 import { TimelineNEU } from '../Assets/Components/timelineNEU';
 import { DescricaoPrograma } from '../Assets/Components/descricaoprograma';
 import { Footer } from '../Assets/Components/footer';
@@ -12,11 +12,7 @@ export class Ebook extends React.Component {
   render() {
     return (
       <div className="">
-        <Banner2 
-        name="logoNEU-sec"
-        descricao="O primeiro passo para empreender na universidade"
-        linkbotao="https://docs.google.com/forms/d/e/1FAIpQLSedhl1S5beY2b4jFNWY3aklsfKZioKMqbJrAn6VgYfZ1qLdVg/viewform?c=0&w=1"
-        conteudobotao="Baixar E-book" />
+        <BannerEbook />
         <DescricaoPrograma 
         title="Guia de suporte aos alunos"
         subtitle="Primeiro passo para empreender"

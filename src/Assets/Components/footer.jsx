@@ -28,7 +28,7 @@ export class Footer extends React.Component{
                     <Nav.Link className="item-nav-footer" href="/Sobre"><div className="texto-branco">Sobre o NEU</div></Nav.Link>
                     <Nav.Link className="item-nav-footer"href="/StartupLab"><div className="texto-branco">Pré-aceleração</div></Nav.Link>
                     <Nav.Link className="item-nav-footer"href="/StartupShip"><div className="texto-branco">Estágios</div></Nav.Link>
-                    <Nav.Link className="item-nav-footer"href="#"><div className="texto-branco">Eventos</div></Nav.Link>
+                    <Nav.Link className="item-nav-footer"href="/Eventos"><div className="texto-branco">Eventos</div></Nav.Link>
                     <Nav.Link className="item-nav-footer"href="#"><div className="texto-branco">Parcerias</div></Nav.Link>
                     <Nav.Link className="item-nav-footer"href="/Ebook"><div className="texto-branco">E-book</div></Nav.Link>
                     <Nav.Link className="item-nav-footer"href="#"><div className="texto-branco">Cursos Online</div></Nav.Link>
