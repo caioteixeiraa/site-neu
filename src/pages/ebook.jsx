@@ -4,6 +4,7 @@ import { TimelineNEU } from '../Assets/Components/timelineNEU';
 import { DescricaoPrograma } from '../Assets/Components/descricaoprograma';
 import { Footer } from '../Assets/Components/footer';
 import { ConteudoEbook } from '../Assets/Components/conteudo-ebook';
+import { CTA } from '../Assets/Components/botao-cta';
 
 export class Ebook extends React.Component {
   constructor(props){
@@ -22,6 +23,9 @@ export class Ebook extends React.Component {
         link_primeirobotao="https://docs.google.com/forms/d/e/1FAIpQLSedhl1S5beY2b4jFNWY3aklsfKZioKMqbJrAn6VgYfZ1qLdVg/viewform?c=0&w=1"
         link_segundobotao=""/>
         <ConteudoEbook />
+        <CTA
+        texto="Baixar E-book"
+        href="#" />
         <Footer />
       </div>
     );

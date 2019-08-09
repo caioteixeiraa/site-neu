@@ -50,7 +50,8 @@ export class Eventos extends React.Component {
               icone_3="like"
               subtituloh4_3="Entregas"
               texto_3="Cada curso possui suas entregas específicas e, ao final do curso, os alunos terão projetos para colocar em seus currículos e/ou portfólios"/>
-          <CTA texto="Inscrever-me"/>
+          <CTA texto="Inscrever-me"
+          href="#"/>
         
         
         
@@ -88,7 +89,8 @@ export class Eventos extends React.Component {
           logo2="logo-idwall.svg"
           logo3="logo-baptista.png"
           logo4="logo-tfg.png" />
-          <CTA texto="Inscrever-me"/>
+          <CTA texto="Inscrever-me"
+          href="#"/>
 
 
 
@@ -126,7 +128,8 @@ export class Eventos extends React.Component {
                     logo2="logo-stone.png"
                     logo3="beleza na web.svg"
                     logo4="logo-espresso.png" />
-                    <CTA texto="Inscrever-me"/>
+                    <CTA texto="Inscrever-me"
+                    href="#"/>
         <Footer />
       </div>
     );
