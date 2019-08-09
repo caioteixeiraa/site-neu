@@ -1,12 +1,6 @@
-.align-items-ebook {
-    display: flex;
-    align-items: flex-start;
-}
-
-.img-ebook { 
-    margin-top: 12em;
-    margin-right: auto;
-    margin-left: auto;
-    width: 1vw;
-    height: auto;
-}
+    #foto-ebook {
+        height: 20em;
+        border-radius: 8px;
+        box-shadow: 0 3px 24px 0 rgba(0, 0, 0, 0.16);
+        margin-left: 10em;
+    }

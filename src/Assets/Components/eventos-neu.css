@@ -1,4 +1,64 @@
 .logos-eventos {
     margin-top: 5em;
     justify-content: space-between;
+    align-items: center;
+}
+
+#logo-ser{
+    max-width:300px;
+    max-height: 400px;
+    width: auto;
+    height: auto;
+    overflow: hidden;
+}
+
+#logo-piratas {
+    max-width:200px;
+    max-height: 200px;
+    width: auto;
+    height: auto;
+    overflow: hidden;
+}
+
+#logo-hack {
+    max-width:300px;
+    max-height: 300px;
+    width: auto;
+    height: auto;
+    overflow: hidden;
+}
+
+
+@media only screen and (max-width: 576px) {
+
+}
+
+@media only screen and (max-width: 768px) {
+
+  #logo-ser {
+    margin-top: 6em;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  #logo-piratas {
+    margin-top: 6em;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  #logo-hack {
+    margin-top: 6em;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+}
+
+@media only screen and (max-width: 992px) {
+
+}
+
+@media only screen and (max-width: 1200px) {
+  
 }
