@@ -17,7 +17,7 @@ export class ConteudoEbook extends React.Component {
                     <p className="texto-como-funciona-ship col-md-6">O e-book foi desenvolvido para trazer um <b>conteúdo rápido e mais acessível</b> aos alunos.
                                                                     O conteúdo deste arquivo envolve os seguintes tópicos:
                     </p>
-                    <img src={ebook_img} alt="E-book" id="foto-ebook"/>
+                    <img src={ebook_img} alt="E-book" id="foto-ebook2"/>
                 </div>
                 <div className="container row">
                     <div>
