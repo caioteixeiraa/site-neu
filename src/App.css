@@ -107,3 +107,15 @@ a:hover {
 .align-items-center {
   align-items: center;
 }
+
+@media only screen and (max-width: 768px) {
+  .button-primary {
+    margin-right: auto;
+    margin-left: auto;
+  }
+  
+  .button-secondary {
+    margin-right: auto;
+    margin-left: auto;
+  }
+}

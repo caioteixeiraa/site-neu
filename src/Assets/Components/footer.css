@@ -102,3 +102,13 @@
       font-weight: 700;
       text-align: center;
   }
+
+  @media only screen and (max-width: 768px) {
+      .navbar-comp {
+          text-align: center;
+      }
+    .item-nav-footer {
+        margin-right: 10em;
+        margin-left: 9em;
+    }
+  }

@@ -34,9 +34,6 @@ export class LabCases extends React.Component {
                         <a href="http://leansurvey.com.br/" target="_blank">
                             <img className="img-7em responsive" src={logo_leansurvey} alt="Lean Survey"/>
                         </a>
-                        <a href="http://area25.com.br/" target="_blank">
-                            <img className="img-7em responsive" src={logo_area25} alt="Area 25"/>
-                        </a>
                     </div>
                 </div>
             </div>

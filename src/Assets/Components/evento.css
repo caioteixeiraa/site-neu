@@ -11,9 +11,14 @@
     margin-left: 4em;
 }
 
-.divider {
-    margin-bottom: 5em;
+.logo img {
+    width: 100%;
+    height: auto;
+}
+
+hr {
+    margin-top: 4em;
+    margin-bottom: 4em;
     border-width: 2px;
-    color: #EDC02C;
-    
+    border-color: #EDC02C;
 }

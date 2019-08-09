@@ -8,7 +8,7 @@ export class Evento extends React.Component{
                 <div className="container">
                     <hr className="divider" />
                     <h1 className="titulo container row col-md-6">{this.props.nomeEvento}</h1>
-                    <h3 className="subtitulo container row col-md-6">{this.props.subtitulo}</h3>
+                    <h3 className="subtitulo container row col-md-8">{this.props.subtitulo}</h3>
                     <div className="row">
                         <div className="textos col-md-7 align-items-center space-between">
                             <p className="texto">{this.props.descricao}</p>
