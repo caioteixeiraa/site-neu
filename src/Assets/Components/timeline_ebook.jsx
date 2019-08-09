@@ -27,9 +27,6 @@ export class TimelineEbook extends React.Component{
                             <p className="margem-top-1em">Até mesmo empreendedores mais maduros podem se beneficiar no NEU, visto que a organização se encontra muito bem relacionada no mercado. Temos na nossa Rede diversos fundos de investimento, veículos midiáticos, aceleradoras, outras empresas, universidades, investidores e parceiros nacionais e internacionais que podem ajudar na alavancagem do negócio.</p>
                         </div>
                     </div>
-                    <div className="container botoes-ship row">
-                        <a href="#" target="_blank"><button type="button col-lg-6 col-md-6 col-sm-8 col-xs-2" className="button-primary" href="#">Baixar E-book</button></a>
-                    </div>
                 </div>
         )
     }

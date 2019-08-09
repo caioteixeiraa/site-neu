@@ -3,6 +3,7 @@ import { Banner2 } from '../Assets/Components/banner2';
 import { DescricaoPrograma } from '../Assets/Components/descricaoprograma';
 import { TimelineNEU } from '../Assets/Components/timelineNEU';
 import { Footer } from '../Assets/Components/footer';
+import { CTA2 } from '../Assets/Components/botao-cta2';
 
 export class SobreNEU extends React.Component {
   constructor(props){
@@ -25,6 +26,9 @@ export class SobreNEU extends React.Component {
         link_primeirobotao=""
         link_segundobotao=""/>
         <TimelineNEU />
+        {/*<CTA2
+        texto1="Quero apoiar o NEU"
+        texto2="Fale conosco" />*/}
         <Footer />
       </div>
     );
