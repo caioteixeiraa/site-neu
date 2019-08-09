@@ -1,0 +1,19 @@
+.margem {
+    margin-top: 10em;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.logo {
+    margin-top: 2.5em;
+    margin-left: 4em;
+}
+
+.divider {
+    margin-bottom: 5em;
+    border-width: 2px;
+    color: #EDC02C;
+    
+}

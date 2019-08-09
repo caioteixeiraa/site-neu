@@ -7,9 +7,9 @@ export class SecaoIcones extends React.Component{
       }
     render() {
         return (
-            <div className="container margem-top-secao-icones">
+            <div className="container-fluid margem-top-secao-icones">
                 <h2 className="titulo-secao-icones">{this.props.tituloh2}</h2>
-                <div className="container row justificado">
+                <div className="container-fluid row justificado">
                     <div className="col-md-3 item-secao-icones">
                         <div className="margem-top3em">
                             <img src={require(`../img/${this.props.icone_1}.svg`)} alt="" id="icone1" className="icone-secao-icones" />

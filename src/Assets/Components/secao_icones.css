@@ -3,7 +3,7 @@
 }
 
 .justificado {
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 .item-secao-icones {
@@ -36,5 +36,5 @@
 }
 
 .icone-secao-icones {
-    width: 30%;
+    width: 6em;
 }
