@@ -18,7 +18,9 @@ export class Evento extends React.Component{
                         </div>
                     </div>
                     <div className="botoes container row">
-                        <button type="button col-lg-6 col-md-6 col-sm-8 col-xs-2" className="button-primary" href="#">Inscrever-me</button>
+                        <a href={this.props.href}>
+                            <button type="button col-lg-6 col-md-6 col-sm-8 col-xs-2" className="button-primary">Inscrever-me</button>
+                        </a>
                     </div>
                 </div>
             </div>

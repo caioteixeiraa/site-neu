@@ -1,0 +1,19 @@
+.bloco {
+    margin-top: 4rem;
+}
+
+.titulo {
+    font-family: 'Montserrat Bold', sans-serif;
+    color: #12a2da;
+    font-weight: 500;
+    font-size: 3em;
+}
+
+.textos {
+    font-family: 'Montserrat Light', sans-serif;
+    color: #838593;
+    font-weight: 300;
+    font-size: 1.2rem;
+    line-height: 2rem;
+    margin-top: 2rem;
+}

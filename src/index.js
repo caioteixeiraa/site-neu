@@ -12,6 +12,7 @@ import { StartupLabPage } from './pages/startuplab';
 import { SobreNEU } from './pages/sobre';
 import { Ebook } from './pages/ebook';
 import { Eventos } from './pages/eventos';
+import { Cursos } from './pages/cursos';
 
 const routing = (
     <Router>
@@ -22,6 +23,7 @@ const routing = (
         <Route path="/Sobre" component={SobreNEU} />
         <Route path="/Ebook" component={Ebook} />
         <Route path="/Eventos" component={Eventos} />
+        <Route path="/Cursos" component={Cursos} />
       </div>
     </Router>
     
