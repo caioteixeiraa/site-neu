@@ -19,7 +19,8 @@ export class Eventos extends React.Component {
         nomeEvento="Treinamento de Novos Piratas"
         subtitulo="Curso gratuito presencial para alunos USP"
         descricao={["O Treinamento de Novos Piratas é um curso presencial para alunos USP e completamente ", <b>gratuito</b>, ". Ele é ministrado por profissionais de diversas startups, com o objetivo de ", <b>desenvolver as hard skills</b>, " necessárias para trabalhar em uma área dentro de uma startup. O Treinamento abrange três áreas distintas: ", <b>UX e Design, Marketing Performance e Ciência dos Dados.</b>]}
-        logo="Logo-piratas.png" />
+        logo="Logo-piratas.png"
+        href="" />
         <Numbers
               numero1="24h"
               descricao1_1="De aulas"
@@ -51,7 +52,7 @@ export class Eventos extends React.Component {
               subtituloh4_3="Entregas"
               texto_3="Cada curso possui suas entregas específicas e, ao final do curso, os alunos terão projetos para colocar em seus currículos e/ou portfólios"/>
           <CTA texto="Inscrever-me"
-          href="#"/>
+          href=""/>
         
         
         
@@ -59,7 +60,8 @@ export class Eventos extends React.Component {
         nomeEvento="SER Empreendedor"
         subtitulo="Competição de Modelos de Negócios"
         descricao={["O Ser Empreendedor é uma ", <b>jornada imersiva</b>, ", com duração aproximada de ", <b>um mês</b>, " na qual as equipes desenvolvem sua ideia de neǵocio, sendo capacitadas ao longo da trajetória, e competindo por uma ", <b>premiação ao final.</b>, " O objetivo do SER é ", <b>fomentar o empreendedorismo dentro das universidades</b>, " e capacitando os alunos a empreenderem."]}
-        logo="SER_LOGO.png" />
+        logo="SER_LOGO.png"
+        href="" />
         <Numbers
               numero1="20h"
               descricao1_1="De aulas"
@@ -98,7 +100,8 @@ export class Eventos extends React.Component {
                   nomeEvento="Hack USP"
                   subtitulo="Maratona de Programação e Desenvolvimento"
                   descricao={["O Hack USP é a ", <b>maratona de programação </b>, " organizada pelo NEU para os alunos e alunas da USP desenvolverem ", <b>soluções inovadoras de tecnologia que tenham impacto na sociedade</b>, ". Engajando alunos, ex-alunos recém-graduados e pesquisadores a criarem soluções tecnológicas sobre o tema da edição."]}
-                  logo="Logo_Hack.png" />
+                  logo="Logo_Hack.png"
+                  href="" />
                   <Numbers
                         numero1="30h"
                         descricao1_1="De conteúdo"

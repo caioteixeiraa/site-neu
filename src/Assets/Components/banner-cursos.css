@@ -1,0 +1,73 @@
+.home-banner-cursos {
+    background-image: url(../img/foto-inova.jpg);
+    width: 100%;
+    margin: 0;
+    height: 45em;
+    flex: 6;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+#logo-ship {
+    width: 30em;
+}
+
+.texto-banner2 {
+  color: #FFFFFF;
+  font-size: 1.5em;
+  font-weight: 300;
+  font-family: 'Montserrat Normal', sans-serif;
+  line-height: 1.29;
+  margin-top: 2.5em;
+}
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.button-secondary-banner {
+  display: flex;
+  font-family: "Montserrat Bold", sans-serif;
+  font-weight: 400;
+  color: #fff;
+  text-align: center;
+  vertical-align: middle;
+  background-color: transparent;
+  border: 2px solid #fff;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: 50px;
+  transition: padding 0.3s;
+  align-content: flex-start;
+  margin-top: 2.5em;
+}
+
+.button-secondary-banner:hover {
+  padding: 0.75rem 3rem;
+}
+
+@media only screen and (max-width: 576px) {
+
+}
+
+@media only screen and (max-width: 768px) {
+
+  #logo-ship {
+    width: 22em;
+  }
+
+}
+
+@media only screen and (max-width: 992px) {
+  .home-banner {
+    height: 50em;
+}
+}
+
+@media only screen and (max-width: 1200px) {
+  
+}

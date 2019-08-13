@@ -56,6 +56,11 @@ b {
   color: #EDC02C;
 }
 
+.azul-bold {
+  font-family: 'Montserrat Bold', sans-serif;
+  color: #12A2DA;
+}
+
 a:hover {
   text-decoration: none;
 }
