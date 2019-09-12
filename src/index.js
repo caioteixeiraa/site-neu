@@ -13,6 +13,7 @@ import { SobreNEU } from './pages/sobre';
 import { Ebook } from './pages/ebook';
 import { Eventos } from './pages/eventos';
 import { Cursos } from './pages/cursos';
+import { Parcerias } from './pages/parcerias';
 
 const routing = (
     <Router>
@@ -24,6 +25,8 @@ const routing = (
         <Route path="/Ebook" component={Ebook} />
         <Route path="/Eventos" component={Eventos} />
         <Route path="/Cursos" component={Cursos} />
+        <Route path="/Cursos" component={Cursos} />
+        <Route path="/Parcerias" component={Parcerias} />
       </div>
     </Router>
     

@@ -37,19 +37,19 @@ export class HomeCursos extends React.Component{
                 <div className="retangulos">
                     <div className="row container">
                         <div className="col">
-                            <a href="#" target="_blank">
+                            <a href="/Cursos" target="_blank">
                                 <HomeCurso nomecurso ="Marketing Digital"
                                 corDeFundo="#edc02c" />
                             </a>
                         </div>
                         <div className="col">
-                            <a href="#" target="_blank">
+                            <a href="/Cursos" target="_blank">
                                 <HomeCurso nomecurso ="Criação de Startups"
                                 corDeFundo="#12a2da" />
                             </a>
                         </div>
                         <div className="col">
-                            <a href="#" target="_blank">
+                            <a href="/Cursos" target="_blank">
                                 <HomeCurso nomecurso ="Jurídico e Financeiro"
                                 corDeFundo="#edc02c" />
                             </a>
@@ -57,19 +57,19 @@ export class HomeCursos extends React.Component{
                     </div>
                     <div className="row container retangulos" style={{marginTop: 24}}>
                         <div className="col">
-                            <a href="#" target="_blank">
+                            <a href="/Cursos" target="_blank">
                                 <HomeCurso nomecurso ="Design e interface"
                                 corDeFundo="#12a2da" />
                             </a>
                         </div>
                         <div className="col">
-                            <a href="#" target="_blank">
+                            <a href="/Cursos" target="_blank">
                                 <HomeCurso nomecurso ="Marketing e Vendas B2B"
                                 corDeFundo="#003e60" />
                             </a>
                         </div>
                         <div className="col">
-                            <a href="#" target="_blank">
+                            <a href="/Cursos" target="_blank">
                                 <HomeCurso nomecurso ="Operações e Escala"
                                 corDeFundo="#12a2da" />
                             </a>
