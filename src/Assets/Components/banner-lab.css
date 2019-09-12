@@ -1,0 +1,11 @@
+.home-banner-lab {
+    background-image: url(../img/banner-lab.png);
+    width: 100%;
+    margin: 0;
+    height: 45em;
+    flex: 6;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}

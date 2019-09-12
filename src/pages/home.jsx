@@ -1,8 +1,8 @@
 import * as React from 'react';
+import '../App.css'
 import { Banner } from '../Assets/Components/banner';
 import { Numbers } from '../Assets/Components/numbers';
 import { Description } from '../Assets/Components/description';
-import { Pillars } from '../Assets/Components/pillars';
 import { CardSectionLeft } from '../Assets/Components/card_section_left';
 import { CardSectionRight } from '../Assets/Components/card_section_right';
 import { HowWorks } from '../Assets/Components/how_works';
@@ -12,6 +12,8 @@ import { HomeEbook } from '../Assets/Components/home_ebook';
 import { HomeCursos } from '../Assets/Components/home_cursos';
 import { HomeParceiros } from '../Assets/Components/home_parceiros';
 import { Footer } from '../Assets/Components/footer';
+import ScrollUpButton from 'react-scroll-up-button';
+import './button-up.css'
 
 export class Home extends React.Component {
   render() {
@@ -59,6 +61,9 @@ export class Home extends React.Component {
         <HomeEbook />
         <HomeCursos />
         <HomeParceiros />
+        <ScrollUpButton
+        ContainerClassName="">
+        </ScrollUpButton>
         <Footer />
       </div>
     );

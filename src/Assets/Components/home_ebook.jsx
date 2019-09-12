@@ -13,7 +13,7 @@ export class HomeEbook extends React.Component {
                     <div className="col-md-6 col-sm-12" id="textos-ebook">
                         <h2 className="titulo-ebook">Guia para os futuros empreendedores</h2>
                         <p className="texto-ebook">Se interessa por empreendedorismo e não sabe por onde começar? Esse e-book foi preparado pelo NEU para ajudar você a dar os primeiros passos no seu negócio.</p>
-                        <button type="button col-lg-6 col-md-6 col-sm-8 col-xs-2" className="button-primary-yellow" href="#">Baixar guia</button>
+                        <a href="/Ebook" target=""><button type="button col-lg-6 col-md-6 col-sm-8 col-xs-2" className="button-primary-yellow" href="#">Baixar guia</button></a>
                     </div>
                 </div>
             </div>

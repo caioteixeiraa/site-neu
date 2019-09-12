@@ -11,7 +11,7 @@ export class Banner extends React.Component{
                     <h1 className="title text-align-left col-md-6">Núcleo de Empreendedorismo da USP</h1>
                     <p className="text-align-left col-md-6 texto-banner">Fomentando a cultura de empreendedorismo na Universidade de São Paulo</p>
                     <div className="container">
-                        <button type="button col-md-6" className="button-secondary-banner" href="#">Saiba Mais</button>
+                        <a href="/Sobre" target="" ><button type="button col-md-6" className="button-secondary-banner" href="/Sobre">Saiba Mais</button></a>
                     </div>
                     </div>
             </div>

@@ -8,11 +8,13 @@ import {AreasPiratas} from '../Assets/Components/areas-piratas';
 import { StartupsPiratas } from '../Assets/Components/startups-piratas';
 import { SecaoIcones } from '../Assets/Components/secao_icones';
 import { CTA } from '../Assets/Components/botao-cta';
+import ScrollUpButton from 'react-scroll-up-button';
 
 export class Eventos extends React.Component {
   render() {
     return (
       <div className="">
+      <ScrollUpButton />
         <Banner3 />
         <EventosNEU />
         <Evento

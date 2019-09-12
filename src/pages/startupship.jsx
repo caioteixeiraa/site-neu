@@ -2,11 +2,13 @@ import * as React from 'react';
 import ReactDOM from 'react-dom';
 import { Numbers } from '../Assets/Components/numbers';
 import { Banner2 } from '../Assets/Components/banner2';
+import { BannerShip } from '../Assets/Components/banner-ship';
 import { DescricaoPrograma } from '../Assets/Components/descricaoprograma';
 import { CarrosselStartups } from '../Assets/Components/carrossel_startups';
 import { SecaoIcones } from '../Assets/Components/secao_icones';
 import { ComoFuncionaShip } from '../Assets/Components/como_funciona_ship';
 import { SecaoDepoimentos } from '../Assets/Components/secao_depoimentos';
+import ScrollUpButton from 'react-scroll-up-button';
 import { Footer } from '../Assets/Components/footer';
 
 export class StartupShipPage extends React.Component {
@@ -16,7 +18,8 @@ export class StartupShipPage extends React.Component {
   render() {
     return (
       <div className="">
-        <Banner2 
+        <ScrollUpButton />
+        <BannerShip 
         name="logo-ship"
         descricao="Conexão de alunos USP a vagas de estágio em startups"
         linkbotao="http://bit.ly/quero_estagiar_em_uma_startup"

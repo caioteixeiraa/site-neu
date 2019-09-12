@@ -29,7 +29,15 @@ export class TimelineLab extends React.Component{
                         </div>
                     </div>
                     <div>
-                        <h4 className="titulo-timeline margem-top-3em">3 - Canvas e modelos de negócios</h4>
+                        <h4 className="titulo-timeline margem-top-3em">3 - Entendendo seu usuário</h4>
+                        <p className="margem-top-1em">Descubra tudo sobre eles com muitas entrevistas e outras ferramentas para desenvolvimento de personas.</p>
+                        <a className="link row align-items-center margem-top-2em" href="https://www.youtube.com/watch?v=1Evwgu369Jw">
+                            <img className="icone-timeline" src={icone_video} alt=""/>
+                            <h6 className="">Empatia</h6>
+                        </a>
+                    </div>
+                    <div>
+                        <h4 className="titulo-timeline margem-top-3em">4 - Canvas e modelos de negócios</h4>
                         <p className="margem-top-1em">Familiarize-se com esta ferramenta estratégica e construa os seus Canvas Proposta de Valore Business Model Canvas.</p>
                         <a className="link row align-items-center margem-top-2em" href="../arquivos_download/Canvas_NEU_V6-2018072018.pdf" download>
                             <img className="icone-timeline" src={icone_download} alt=""/>
@@ -38,14 +46,6 @@ export class TimelineLab extends React.Component{
                         <a className="link row align-items-center margem-top-1em" href="https://youtu.be/kCWTeDZpUHY">
                             <img className="icone-timeline" src={icone_video} alt=""/>
                             <h6 className="">Como usar o canvas de modelo de negócios</h6>
-                        </a>
-                    </div>
-                    <div>
-                        <h4 className="titulo-timeline margem-top-3em">4 - Entendendo seu usuário</h4>
-                        <p className="margem-top-1em">Descubra tudo sobre eles com muitas entrevistas e outras ferramentas para desenvolvimento de personas.</p>
-                        <a className="link row align-items-center margem-top-2em" href="https://www.youtube.com/watch?v=1Evwgu369Jw">
-                            <img className="icone-timeline" src={icone_video} alt=""/>
-                            <h6 className="">Empatia</h6>
                         </a>
                     </div>
                     <div>
