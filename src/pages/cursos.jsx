@@ -5,6 +5,8 @@ import { DescricaoCursos } from '../Assets/Components/descricao-cursos';
 import { Curso } from '../Assets/Components/curso';
 import { StartupsPiratas } from '../Assets/Components/startups-piratas';
 import { Startups3 } from '../Assets/Components/startups3';
+import ScrollUpButton from 'react-scroll-up-button';
+
 
 export class Cursos extends React.Component {
   constructor(props){
@@ -13,6 +15,7 @@ export class Cursos extends React.Component {
   render() {
     return (
       <div className="">
+      <ScrollUpButton />
         <BannerCursos />
         <DescricaoCursos />
         <Curso
@@ -40,9 +43,9 @@ export class Cursos extends React.Component {
 
 
         <Curso
-        nome="UX/UI Design"
+        nome="UX/UI & Design"
         foto="foto-inova.jpg"
-        descricao={["Aprenda com a Taqtile sobre como criar a ", <b>melhor experiência para o seu usuário</b>, ", princípios básicos de Design e como desenvolver ", <b>interfaces de aplicativos e sites.</b>]}
+        descricao={["Aprenda com a ", <b>Taqtile</b>,  " sobre como criar a ", <b>melhor experiência para o seu usuário</b>, ", princípios básicos de Design e como desenvolver ", <b>interfaces de aplicativos e sites.</b>]}
         link="https://www.coursera.org/learn/ux-ui-design-de-interface?" />
         <Startups3
           logo1="taqtile-quadrado.png"

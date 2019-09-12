@@ -4,7 +4,7 @@ import logo_99 from '../img/logos-startups/logo-99--black-yellow.svg';
 import logo_ingresse from '../img/logos-startups/ingresse-06.svg';
 import logo_mobly from '../img/logos-startups/logo-mobly.svg';
 import logo_appsimples from '../img/logos-startups/appsimples_logo.svg';
-import logo_cuidas from '../img/logos-startups/cuidas-logo.svg';
+import logo_cuidas from '../img/logos-startups/cuidas_c_h.png';
 import logo_flowsense from '../img/logos-startups/FlowsenseLogo.svg';
 import logo_genera from '../img/logos-startups/logo-genera1-e1458431074399.png';
 import logo_celebrar from '../img/logos-startups/celebrar.png';
@@ -40,7 +40,7 @@ export class CarrosselStartups extends React.Component {
                     <img src={logo_mvisia} alt="MVISIA" className="tamanho-img-10vw margem-direita-5em"/>
                 </a>
                 <a href="https://cuidas.com.br/" target="_blank">
-                    <img src={logo_cuidas} alt="Cuidas" className="tamanho-img-8vw margem-direita-5em"/>
+                    <img src={logo_cuidas} alt="Cuidas" className="tamanho-img-14vw margem-direita-5em"/>
                 </a>
                 <a href="https://www.mobly.com.br/" target="_blank">
                     <img src={logo_mobly} alt="Mobly" className="tamanho-img-8vw margem-direita-5em"/>

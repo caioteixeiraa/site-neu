@@ -4,6 +4,8 @@ import { DescricaoPrograma } from '../Assets/Components/descricaoprograma';
 import { TimelineNEU } from '../Assets/Components/timelineNEU';
 import { Footer } from '../Assets/Components/footer';
 import { CTA2 } from '../Assets/Components/botao-cta2';
+import ScrollUpButton from 'react-scroll-up-button';
+
 
 export class SobreNEU extends React.Component {
   constructor(props){
@@ -12,6 +14,7 @@ export class SobreNEU extends React.Component {
   render() {
     return (
       <div className="">
+        <ScrollUpButton />
         <Banner2 
         name="logoNEU-sec"
         descricao="Fomentando a cultura de empreendedorismo na Universidade"

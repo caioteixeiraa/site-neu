@@ -1,6 +1,6 @@
 import * as React from 'react';
 import './depoimento.css';
-import logo_cuidas from './cuidas-logo.svg';
+import logo_cuidas from './cuidas_c_h.png';
 import Gabriel from './yshay.png';
 
 export class DepoimentoGabriel extends React.Component {

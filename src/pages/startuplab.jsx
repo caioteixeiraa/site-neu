@@ -5,7 +5,10 @@ import { Numbers } from '../Assets/Components/numbers';
 import { SecaoIcones } from '../Assets/Components/secao_icones';
 import { LabCases } from '../Assets/Components/lab_cases';
 import { ComoFuncionaLab } from '../Assets/Components/como_funciona_lab';
-import {Footer} from '../Assets/Components/footer';
+import { Footer } from '../Assets/Components/footer';
+import { BannerLab } from '../Assets/Components/banner-lab';
+import ScrollUpButton from 'react-scroll-up-button';
+
 
 export class StartupLabPage extends React.Component {
   constructor(props){
@@ -14,7 +17,8 @@ export class StartupLabPage extends React.Component {
   render() {
     return (
       <div className="">
-        <Banner2 
+        <ScrollUpButton />
+        <BannerLab 
         name="logo-lab"
         descricao="O programa de pré-aceleração de startups aos alunos e alunas USP"
         linkbotao="http://bit.ly/typeformLab"

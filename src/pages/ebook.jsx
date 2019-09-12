@@ -5,6 +5,8 @@ import { DescricaoPrograma } from '../Assets/Components/descricaoprograma';
 import { Footer } from '../Assets/Components/footer';
 import { ConteudoEbook } from '../Assets/Components/conteudo-ebook';
 import { CTA } from '../Assets/Components/botao-cta';
+import ScrollUpButton from 'react-scroll-up-button';
+
 
 export class Ebook extends React.Component {
   constructor(props){
@@ -13,6 +15,7 @@ export class Ebook extends React.Component {
   render() {
     return (
       <div className="">
+        <ScrollUpButton />
         <BannerEbook />
         <DescricaoPrograma 
         title="Guia de suporte aos alunos"
