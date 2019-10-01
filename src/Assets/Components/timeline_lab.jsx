@@ -3,6 +3,7 @@ import './timeline.css';
 import icone_video from '../img/video-player.svg';
 import icone_download from '../img/download-arrow.svg';
 import icone_user from '../img/user.svg';
+import { CTA } from '../Components/botao-cta';
 
 export class TimelineLab extends React.Component{
     constructor(props){
@@ -61,11 +62,11 @@ export class TimelineLab extends React.Component{
                         <p className="margem-top-1em">Teste seu produto e valide as hipóteses que sua equipe criou durante o processo de Construção do MVP.</p>
                     </div>
                 </div>
-                <div className="container botoes-ship row">
-                    <a href="http://bit.ly/typeformLab" target="_blank"><button type="button col-lg-6 col-md-6 col-sm-8 col-xs-2" className="button-primary" href="#">Inscrever-me</button></a>
-                    <a href="#" target="_blank"><button type="button col-lg-6 col-md-6 col-sm-8 col-xs-2" className="button-secondary" href="#">Quero ser mentor</button></a>
 
-                </div>
+                <CTA 
+                href="http://bit.ly/typeformLab"
+                texto="Inscrever-me"/>
+
             </div>
         )
     }

@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { Banner3 } from '../Assets/Components/banner3';
+import { Banner4 } from '../Assets/Components/banner4';
 import { EventosNEU } from '../Assets/Components/eventos-neu';
 import { Evento } from '../Assets/Components/evento';
 import { Footer } from '../Assets/Components/footer';
@@ -9,13 +9,15 @@ import { StartupsPiratas } from '../Assets/Components/startups-piratas';
 import { SecaoIcones } from '../Assets/Components/secao_icones';
 import { DescricaoPrograma } from '../Assets/Components/descricaoprograma';
 import ScrollUpButton from 'react-scroll-up-button';
+import { HomeParceiros } from '../Assets/Components/home_parceiros';
+import { StartupsParceiras } from '../Assets/Components/startups_parceiras';
 
 export class Parcerias extends React.Component {
   render() {
     return (
       <div className="">
       <ScrollUpButton />
-        <Banner3 />
+        <Banner4 />
         <DescricaoPrograma
         title="Parcerias"
         subtitle="Pessoas e Startups que apoiam o NEU"
@@ -35,7 +37,8 @@ export class Parcerias extends React.Component {
               icone_3="talk"
               subtituloh4_3="Papo de startup para startup"
               texto_3="Papos sobre empreendedorismo e uma rede para tirar dúvidas e saber mais sobre outras empresas."/>
-        
+        <HomeParceiros />
+        <StartupsParceiras />
         
         <Footer />
       </div>

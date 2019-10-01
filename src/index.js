@@ -25,7 +25,6 @@ const routing = (
         <Route path="/Ebook" component={Ebook} />
         <Route path="/Eventos" component={Eventos} />
         <Route path="/Cursos" component={Cursos} />
-        <Route path="/Cursos" component={Cursos} />
         <Route path="/Parcerias" component={Parcerias} />
       </div>
     </Router>
