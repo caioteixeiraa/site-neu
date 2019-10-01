@@ -18,7 +18,7 @@ export class HowWorks extends React.Component {
                             <a href={this.props.refpage}><button type="button" className="button-primary">Saber mais</button></a>
                         </div>
                     </div>
-                    <div className="col-md-5 col-8 offset-1 itens-lab">
+                    <div className="col-md-5 offset-1 itens-lab">
                         <p>{this.props.item1}</p>
                         <p>{this.props.item2}</p>
                         <p>{this.props.item3}</p>

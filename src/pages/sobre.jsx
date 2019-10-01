@@ -22,7 +22,7 @@ export class SobreNEU extends React.Component {
         <DescricaoPrograma 
         title="Sobre o NEU"
         subtitle="A organização"
-        text={["O NEU (Núcleo de Empreendedorismo da USP) é uma ", <b>organização sem fins lucrativos </b>, ", formada por alunos com apoio de pesquisadores e professores movidos por uma missão: ", <b>fomentar a cultura de empreendedorismo na Universidade de São Paulo</b>]}
+        text={["O NEU (Núcleo de Empreendedorismo da USP) é uma ", <b>organização sem fins lucrativos</b>, " , formada por alunos com apoio de pesquisadores e professores movidos por uma missão: ", <b>fomentar a cultura de empreendedorismo na Universidade de São Paulo</b>]}
         btnprimary="Quero apoiar o NEU"
         btnsecondary="Fale conosco"
         link_primeirobotao="mailto:neu@uspempreende.com"
