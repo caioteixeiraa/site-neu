@@ -36,19 +36,19 @@ export class HomeCursos extends React.Component{
                 descricao4_2="convidados" />
                 <div className="retangulos">
                     <div className="row container">
-                        <div className="col">
+                        <div className="col-md-4">
                             <a href="/Cursos" target="_blank">
                                 <HomeCurso nomecurso ="Marketing Digital"
                                 corDeFundo="#edc02c" />
                             </a>
                         </div>
-                        <div className="col">
+                        <div className="col-md-4">
                             <a href="/Cursos" target="_blank">
                                 <HomeCurso nomecurso ="Criação de Startups"
                                 corDeFundo="#12a2da" />
                             </a>
                         </div>
-                        <div className="col">
+                        <div className="col-md-4">
                             <a href="/Cursos" target="_blank">
                                 <HomeCurso nomecurso ="Jurídico e Financeiro"
                                 corDeFundo="#edc02c" />
@@ -56,19 +56,19 @@ export class HomeCursos extends React.Component{
                         </div>
                     </div>
                     <div className="row container retangulos" style={{marginTop: 24}}>
-                        <div className="col">
+                        <div className="col-md-4">
                             <a href="/Cursos" target="_blank">
                                 <HomeCurso nomecurso ="Design e interface"
                                 corDeFundo="#12a2da" />
                             </a>
                         </div>
-                        <div className="col">
+                        <div className="col-md-4">
                             <a href="/Cursos" target="_blank">
                                 <HomeCurso nomecurso ="Marketing e Vendas B2B"
                                 corDeFundo="#003e60" />
                             </a>
                         </div>
-                        <div className="col">
+                        <div className="col-md-4">
                             <a href="/Cursos" target="_blank">
                                 <HomeCurso nomecurso ="Operações e Escala"
                                 corDeFundo="#12a2da" />

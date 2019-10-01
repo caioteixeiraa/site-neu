@@ -71,7 +71,7 @@ export class Cursos extends React.Component {
         nome="Marketing e Vendas B2B"
         foto="foto-inova.jpg"
         descricao={["Aprenda a aumentar as vendas em negócios B2B com técnicas e estratégias de Marketing. Neste curso serão abordados temas como: ", <b>leads, conversão, Inbound e Outbound, como vender e fidelização.</b>]}
-        link="https://www.coursera.org/learn/criacao-startups" />
+        link="https://www.coursera.org/learn/marketing-vendas-b2b" />
         <StartupsPiratas
           logo1="Lean-survey.jpg"
           logo2="colab-logo.png"
@@ -85,7 +85,7 @@ export class Cursos extends React.Component {
         nome="Crescimento de empresas"
         foto="foto-inova.jpg"
         descricao={["Neste curso você irá entender mais sobre como escalar, como criar e manter a cultura, como ser um líder, como gerir e contratar equipes, como desenvolver produtos ", <b>e como cuidar da operação da sua empresa.</b>]}
-        link="https://www.coursera.org/learn/criacao-startups" />
+        link="https://www.coursera.org/learn/gestao-equipes-negocios" />
         <StartupsPiratas
           logo1="playax.png"
           logo2="beleza na web.svg"
