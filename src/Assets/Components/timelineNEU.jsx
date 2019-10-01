@@ -66,8 +66,8 @@ export class TimelineNEU extends React.Component{
                     </div>
                 </div>
                 <div className="container botoes-ship row">
-                    <a href="#" target="_blank"><button type="button col-lg-6 col-md-6 col-sm-8 col-xs-2" className="button-primary" href="#">Quero apoiar o NEU</button></a>
-                    <a href="#" target="_blank"><button type="button col-lg-6 col-md-6 col-sm-8 col-xs-2" className="button-secondary" href="#">Fale conosco</button></a>
+                    <a href="#" target="_blank"><button type="button col-lg-6 col-md-6 col-sm-8 col-xs-2" className="button-primary" href="mailto:neu@uspempreende.com">Quero apoiar o NEU</button></a>
+                    <a href="#" target="_blank"><button type="button col-lg-6 col-md-6 col-sm-8 col-xs-2" className="button-secondary" href="mailto:neu@uspempreende.com">Fale conosco</button></a>
 
                 </div>
             </div>
