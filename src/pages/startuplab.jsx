@@ -22,7 +22,7 @@ export class StartupLabPage extends React.Component {
         name="logo-lab"
         descricao="O programa de pré-aceleração de startups aos alunos e alunas USP"
         linkbotao="http://bit.ly/typeformLab"
-        conteudobotao="Inscrever-me" />/>
+        conteudobotao="Inscrever-me" />
         <DescricaoPrograma 
         title="Pré-aceleração"
         subtitle="Tem uma ideia e quer empreender?"
