@@ -12,7 +12,7 @@ export class BannerLab extends React.Component{
             <div className="home-banner-lab">
                 <NavbarNEU />
                 <div className="container banner-content">
-                    <img src={require(`../img/${this.props.name}.png`)} alt="StartupSHIP" id="logo-ship" />
+                    <img src={require(`../img/${this.props.name}.svg`)} alt="StartupSHIP" id="logo-ship" />
                     <p className="center col-md-6 texto-banner2">{this.props.descricao}</p>
                     <a href={this.props.linkbotao} target="_blank"><button type="button col-lg-6 col-md-6 col-sm-8 col-xs-2" className="button-secondary-banner center" href="#">{this.props.conteudobotao}</button></a>
                 </div>

@@ -19,11 +19,11 @@ export class TimelineShip extends React.Component{
                     <div>
                         <h4 className="titulo-timeline margem-top-3em">2 - Entraremos em contato</h4>
                         <p className="margem-top-1em">Entraremos em contato para confirmarmos que você está interessado no StartupSHIP! Enquanto isso, o que acha de dicas para fazer um currículo?</p>
-                        <a className="link row align-items-center margem-top-2em" href="../arquivos_download/Modelo de currículo 1.pdf">
+                        <a className="link row align-items-center margem-top-2em" href="../arquivos_download/Modelo de currículo 1.pdf" target="_blank" download>
                             <img className="icone-timeline" src={icone_download} alt=""/>
                             <h6 className="">Modelo de currículo</h6>
                         </a>
-                        <a className="link row align-items-center margem-top-1em" href="../arquivos_download/Startupship _ Núcleo de empreendedorismo da usp.pdf" download>
+                        <a className="link row align-items-center margem-top-1em" href="../arquivos_download/Startupship _ Núcleo de empreendedorismo da usp.pdf" target="_blank" download>
                             <img className="icone-timeline" src={icone_download} alt=""/>
                             <h6 className="">Dicas de como montar um currículo</h6>
                         </a>
@@ -36,7 +36,7 @@ export class TimelineShip extends React.Component{
                         <h4 className="titulo-timeline margem-top-3em">4 - Aguarde o contato da startup</h4>
                         <p className="margem-top-1em">Depois de enviarmos o currículo para a startup, o que acha de aprender um pouco sobre entrevistas?</p>
 
-                        <a className="link row align-items-center margem-top-3em" href="https://www.youtube.com/watch?v=2V6ijJqR608">
+                        <a className="link row align-items-center margem-top-3em" href="https://www.youtube.com/watch?v=2V6ijJqR608 " target="_blank">
                             <img className="icone-timeline" src={icone_video} alt=""/>
                             <h6 className="">Vídeo - como se preparar para uma entrevista?</h6>
                         </a>

@@ -1,6 +1,5 @@
 import * as React from 'react';
 import { BannerEbook } from '../Assets/Components/bannerEbook';
-import { TimelineNEU } from '../Assets/Components/timelineNEU';
 import { DescricaoPrograma } from '../Assets/Components/descricaoprograma';
 import { Footer } from '../Assets/Components/footer';
 import { ConteudoEbook } from '../Assets/Components/conteudo-ebook';
@@ -28,7 +27,7 @@ export class Ebook extends React.Component {
         <ConteudoEbook />
         <CTA
         texto="Baixar E-book"
-        href="#" />
+        href="https://docs.google.com/forms/d/e/1FAIpQLSedhl1S5beY2b4jFNWY3aklsfKZioKMqbJrAn6VgYfZ1qLdVg/viewform?c=0&w=1" />
         <Footer />
       </div>
     );
