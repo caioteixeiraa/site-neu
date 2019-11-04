@@ -19,7 +19,7 @@ export class StartupLabPage extends React.Component {
       <div className="">
         <ScrollUpButton />
         <BannerLab 
-        name="logo-lab"
+        name="logo_startup-lab"
         descricao="O programa de pré-aceleração de startups aos alunos e alunas USP"
         linkbotao="http://bit.ly/typeformLab"
         conteudobotao="Inscrever-me" />
@@ -30,7 +30,7 @@ export class StartupLabPage extends React.Component {
         btnprimary="Inscrever-me"
         btnsecondary="Quero ser mentor"
         link_primeirobotao="http://bit.ly/typeformLab"
-        link_segundobotao=""/>
+        link_segundobotao="mailto:neu@uspempreende.com"/>
         <Numbers 
         numero1="+40h"
         descricao1_1="De mentoria"

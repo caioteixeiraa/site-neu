@@ -20,7 +20,7 @@ export class Cursos extends React.Component {
         <DescricaoCursos />
         <Curso
         nome="Criação de Startups"
-        foto="foto-inova.jpg"
+        foto="criacao-startups.png"
         descricao={["Curso introdutório de Criação de Startups, composto por aulas teóricas sobre ", <b>Customer Development</b>, " e ", <b>Lean Startup</b>, ", e aulas práticas com empreendedores das ", <b>maiores startups</b>, "."]}
         link="https://www.coursera.org/learn/criacao-startups" />
         <StartupsPiratas
@@ -32,7 +32,7 @@ export class Cursos extends React.Component {
 
         <Curso
         nome="Marketing Digital"
-        foto="foto-inova.jpg"
+        foto="mkt-digital.png"
         descricao={["Aprenda a desenvolver a estratégia de marketing digital para sua empresa ou startup. Nesse curso você irá aprender sobre os principais pontos de Marketing como  ", <b>ROI, SEO, SEM, Testes AB e funil de conversão.</b>]}
         link="https://www.coursera.org/learn/estrategia-marketing-digital?" />
         <Startups3
@@ -44,7 +44,7 @@ export class Cursos extends React.Component {
 
         <Curso
         nome="UX/UI & Design"
-        foto="foto-inova.jpg"
+        foto="ux_ui.png"
         descricao={["Aprenda com a ", <b>Taqtile</b>,  " sobre como criar a ", <b>melhor experiência para o seu usuário</b>, ", princípios básicos de Design e como desenvolver ", <b>interfaces de aplicativos e sites.</b>]}
         link="https://www.coursera.org/learn/ux-ui-design-de-interface?" />
         <Startups3
@@ -56,7 +56,7 @@ export class Cursos extends React.Component {
         
         <Curso
         nome="Estrutura Jurídica e Financeira"
-        foto="foto-inova.jpg"
+        foto="jurídico.png"
         descricao={["Aprenda como oficializar sua empresa. Entenda como  ", <b>conseguir um CNPJ, oficializar sociedade e as minúcias de capital SA, LTDA e EIRELI, e muito mais.</b>]}
         link="https://www.coursera.org/learn/consolidando-empresas?" />
         <Startups3
@@ -69,7 +69,7 @@ export class Cursos extends React.Component {
 
         <Curso
         nome="Marketing e Vendas B2B"
-        foto="foto-inova.jpg"
+        foto="b2b.png"
         descricao={["Aprenda a aumentar as vendas em negócios B2B com técnicas e estratégias de Marketing. Neste curso serão abordados temas como: ", <b>leads, conversão, Inbound e Outbound, como vender e fidelização.</b>]}
         link="https://www.coursera.org/learn/marketing-vendas-b2b" />
         <StartupsPiratas
@@ -83,7 +83,7 @@ export class Cursos extends React.Component {
 
         <Curso
         nome="Crescimento de empresas"
-        foto="foto-inova.jpg"
+        foto="operacao-escala.png"
         descricao={["Neste curso você irá entender mais sobre como escalar, como criar e manter a cultura, como ser um líder, como gerir e contratar equipes, como desenvolver produtos ", <b>e como cuidar da operação da sua empresa.</b>]}
         link="https://www.coursera.org/learn/gestao-equipes-negocios" />
         <StartupsPiratas

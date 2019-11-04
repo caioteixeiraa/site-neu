@@ -16,8 +16,8 @@ export class Description extends React.Component{
                     </div>
                 </div>
                 <div className="botoes row">
-                    <a href="/Sobre" target=""><button type="button col-lg-6 col-md-6 col-sm-8 col-xs-2" className="button-primary" href="#">Como o NEU surgiu</button></a>
-                    <a href="" target=""><button type="button col-lg-6 col-md-6 col-sm-8 col-xs-2" className="button-secondary" href="#">Quero apoiar o NEU</button></a>
+                    <a href="/Sobre" target=""><button type="button col-lg-6 col-md-6 col-sm-8 col-xs-2" className="button-primary">Como o NEU surgiu</button></a>
+                    <a href="/Parcerias" target=""><button type="button col-lg-6 col-md-6 col-sm-8 col-xs-2" className="button-secondary">Quero apoiar o NEU</button></a>
                 </div>
             </div>
         )
