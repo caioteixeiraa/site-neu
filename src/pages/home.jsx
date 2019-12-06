@@ -38,7 +38,7 @@ export class Home extends React.Component {
         <HowWorks 
           titulo1="Como funciona a pré-aceleração?"
           textolateral="No StartupLAB, a equipe receberá todo o apoio, mentoria, material teórico e conexão com empreendedores para tornar sua ideia em realidade."
-          refpage="/StartupLAB"
+          refpage="/StartupLab"
           item1="- 100% gratuito para todos os alunos e ex-alunos da USP"
           item2="- Apoio e mentoria de fundadores e profissionais de startups"
           item3="- Oferecimento gratuito de materiais montados pelo time NEU"
@@ -50,7 +50,7 @@ export class Home extends React.Component {
         <HowWorks 
           titulo1="Como funciona para conseguir um estágio pelo NEU?"
           textolateral="Nós conectamos o alunos USP que quer ter uma experiência em um ambiente vibrante com a vaga de estágio de uma startup."
-          refpage="/StartupSHIP"
+          refpage="/StartupShip"
           item1="- Experiência de trabalhar em ambientes de muita autonomia"
           item2="- As melhores startups do Brasil"
           item3="- Inscrição através de apenas um formulário"

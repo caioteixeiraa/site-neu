@@ -8,7 +8,7 @@ export class Banner2 extends React.Component{
     }
     render() {
         return (
-            <div className="home-banner">
+            <div className="home-banner-2">
                 <NavbarNEU />
                 <div className="container banner-content">
                     <img src={require(`../img/${this.props.name}.png`)} alt="StartupSHIP" id="logo-ship" />
