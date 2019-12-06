@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/caioteixeiraa/site-neu/precache-manifest.dcd57b9b9ccb505eb61882ba5dc0cc8d.js"
+  "/caioteixeiraa/site-neu/precache-manifest.ddf734c9b321b21f47ec65c91e7bc059.js"
 );
 
 self.addEventListener('message', (event) => {
