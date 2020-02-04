@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
-import { Route, BrowserRouter as Router } from 'react-router-dom';
+import { Route, HashRouter as Router } from 'react-router-dom';
 import { Home } from './pages/home';
 import { StartupShipPage } from './pages/startupship';
 import 'bootstrap/dist/css/bootstrap.css';
@@ -19,7 +19,7 @@ const routing = (
     <Router>
       <div>
         <Route exact path="/" component={Home} />
-        <Route path="/StartupSHIP" component={StartupShipPage} />
+        <Route path="/StartupSHIP#" component={StartupShipPage} />
         <Route path="/StartupLAB" component={StartupLabPage} />
         <Route path="/Sobre" component={SobreNEU} />
         <Route path="/Ebook" component={Ebook} />
