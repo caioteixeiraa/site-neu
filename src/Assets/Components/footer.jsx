@@ -1,6 +1,6 @@
 import * as React from 'react';
 import './footer.css';
-import MapsInova from '../img/screencapture-google-maps-place-InovaLab-Poli-23-5570386-46-7320631-18z-data-4m5-3m4-1s0x0-0xcac47aef5f2195ef-8m2-3d-23-5567047-4d-46-7331657-2019-03-.png'
+import MapsInova from '../img/mapa-inovausp.png'
 import {Navbar, Nav, NavbarCollapse, NavbarContext, NavbarBrand, NavbarToggle, NavContext, NavItem, NavLink} from 'react-bootstrap';
 
 
@@ -14,7 +14,7 @@ export class Footer extends React.Component{
                         <p className="texto-branco texto-footer">Venha conversar com a gente, estamos aqui para ajudar você a fazer parte do ecossistema de empreendedorismo na Universidade
                         de São Paulo.</p>
                         <h5 className="texto-branco titulo-maisinfo">Localização:</h5>
-                        <p className="texto-branco mais-info">InovaLab@Poli<br/>Av. Luciano Gualberto, 1380<br/>Cidade Universitária, São Paulo-SP<br/>Prédio da Engenharia de Produção - Poli USP</p>
+                        <p className="texto-branco mais-info">Cosmos@INOVAUSP<br/>Av. Prof. Lúcio Martins Rodrigues, 370,<br/>Cidade Universitária, Butantã,<br/>São Paulo-SP, 05508-020</p>
                         <h5 className="texto-branco titulo-maisinfo">Informações de contato:</h5>
                         <p className="texto-branco mais-info">E-mail: neu@uspempreende.org<br/>Facebook: facebook.com/uspempreende</p>
                     </div>

@@ -2,7 +2,7 @@
   "name": "site-neu",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/caioteixeiraa/site-neu#readme",
+  "homepage": "https://caioteixeiraa.github.io/site-neu",
   "dependencies": {
     "bootstrap": "^4.4.1",
     "gh-pages": "^2.2.0",

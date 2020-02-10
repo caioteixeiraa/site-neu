@@ -15,7 +15,7 @@ export class NavbarNEU extends React.Component{
                     <Nav className="mr-auto">
                         <Nav.Link className={window.location.pathname === "/Sobre" ? "nav-item sublinhado": "nav-item"} href="/Sobre"><div className="texto-branco">Sobre o NEU</div></Nav.Link>
                         <Nav.Link className={window.location.pathname === "/StartupLab" ? "nav-item sublinhado": "nav-item"}href="/StartupLab"><div className="texto-branco">Pré-aceleração</div></Nav.Link>
-                        <Nav.Link className={window.location.pathname === "/StartupShip" ? "nav-item sublinhado": "nav-item"} href="/StartupShip"><div className="texto-branco">Estágios</div></Nav.Link>
+                        <Nav.Link className={window.location.pathname === "/StartupShip#" ? "nav-item sublinhado": "nav-item"} href="/StartupShip"><div className="texto-branco">Estágios</div></Nav.Link>
                         <Nav.Link className={window.location.pathname === "/Eventos" ? "nav-item sublinhado": "nav-item"}href="/Eventos"><div className="texto-branco">Eventos</div></Nav.Link>
                         <Nav.Link className={window.location.pathname === "/Parcerias" ? "nav-item sublinhado": "nav-item"}href="/Parcerias"><div className="texto-branco">Parcerias</div></Nav.Link>
                         <Nav.Link className={window.location.pathname === "/Ebook" ? "nav-item sublinhado": "nav-item"}href="/Ebook"><div className="texto-branco">E-book</div></Nav.Link>

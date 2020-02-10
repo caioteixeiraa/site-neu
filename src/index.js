@@ -19,7 +19,7 @@ const routing = (
     <Router>
       <div>
         <Route exact path="/" component={Home} />
-        <Route path="/StartupSHIP" component={StartupShipPage} />
+        <Route path="/StartupSHIP#" component={StartupShipPage} />
         <Route path="/StartupLAB" component={StartupLabPage} />
         <Route path="/Sobre" component={SobreNEU} />
         <Route path="/Ebook" component={Ebook} />
