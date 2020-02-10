@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
-import { Route, HashRouter as Router } from 'react-router-dom';
+import { Route, Link, BrowserRouter as Router } from 'react-router-dom';
 import { Home } from './pages/home';
 import { StartupShipPage } from './pages/startupship';
 import 'bootstrap/dist/css/bootstrap.css';
