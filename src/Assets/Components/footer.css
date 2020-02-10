@@ -33,9 +33,13 @@
 }
 
 .foto-maps {
-    max-width: 100%;
+    max-width: 70%;
     height: auto;
     margin-left: 5em;
+    border-radius: 2%;
+    margin-bottom: 2em;
+    margin-top: 2em;
+    display: block;
 }
 
 .textos-foto {
