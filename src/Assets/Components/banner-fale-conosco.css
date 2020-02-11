@@ -1,0 +1,17 @@
+.fale-conosco-banner {
+    background-image: url(../img/foto-kanban.jpg);
+    width: 100%;
+    margin: 0;
+    height: 45em;
+    flex: 6;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  
+.banner-content {
+    margin-top: 6em;
+    text-align: center;
+    vertical-align: middle;
+}

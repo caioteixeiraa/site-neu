@@ -14,18 +14,20 @@ import { Ebook } from './pages/ebook';
 import { Eventos } from './pages/eventos';
 import { Cursos } from './pages/cursos';
 import { Parcerias } from './pages/parcerias';
+import { FaleConosco } from './pages/fale-conosco';
 
 const routing = (
     <Router>
       <div>
         <Route exact path="/" component={Home} />
-        <Route path="/StartupSHIP#" component={StartupShipPage} />
+        <Route path="/StartupSHIP" component={StartupShipPage} />
         <Route path="/StartupLAB" component={StartupLabPage} />
         <Route path="/Sobre" component={SobreNEU} />
         <Route path="/Ebook" component={Ebook} />
         <Route path="/Eventos" component={Eventos} />
         <Route path="/Cursos" component={Cursos} />
         <Route path="/Parcerias" component={Parcerias} />
+        <Route path="/FaleConosco" component={FaleConosco} />
       </div>
     </Router>
     
