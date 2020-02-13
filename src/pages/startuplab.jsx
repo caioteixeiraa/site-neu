@@ -30,7 +30,7 @@ export class StartupLabPage extends React.Component {
         btnprimary="Inscrever-me"
         btnsecondary="Quero ser mentor"
         link_primeirobotao="http://bit.ly/typeformLab"
-        link_segundobotao="mailto:neu@uspempreende.com"/>
+        link_segundobotao="/FaleConosco"/>
         <Numbers 
         numero1="+40h"
         descricao1_1="De mentoria"

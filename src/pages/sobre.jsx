@@ -17,7 +17,7 @@ export class SobreNEU extends React.Component {
         <Banner2 
         name="logoNEU-sec"
         descricao="Fomentando a cultura de empreendedorismo na Universidade"
-        linkbotao="mailto:neu@uspempreende.com"
+        linkbotao="/FaleConosco"
         conteudobotao="Quero apoiar o NEU" />
         <DescricaoPrograma 
         title="Sobre o NEU"
@@ -25,8 +25,8 @@ export class SobreNEU extends React.Component {
         text={["O NEU (Núcleo de Empreendedorismo da USP) é uma ", <b>organização sem fins lucrativos</b>, " , formada por alunos com apoio de pesquisadores e professores movidos por uma missão: ", <b>fomentar a cultura de empreendedorismo na Universidade de São Paulo</b>]}
         btnprimary="Quero apoiar o NEU"
         btnsecondary="Fale conosco"
-        link_primeirobotao="mailto:neu@uspempreende.com"
-        link_segundobotao="mailto:neu@uspempreende.com"/>
+        link_primeirobotao="/FaleConosco"
+        link_segundobotao="/FaleConosco"/>
         <TimelineNEU />
         <Footer />
       </div>

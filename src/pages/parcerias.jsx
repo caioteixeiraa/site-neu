@@ -24,8 +24,8 @@ export class Parcerias extends React.Component {
         text={["Para ajudar no fomento do empreendedorismo, nós temos a nossa ", <b>Rede NEU</b>,". Essa rede tem como foco auxiliar as startups que estão presentes nela, com conexões entre si mediadas pelo próprio NEU. Algumas empresas também ajudam o NEU financeiramente para que os nosso eventos e programas possam acontecer. "]} 
         btnprimary="Quero fazer parte"
         btnsecondary="Quero ajudar o NEU"
-        link_primeirobotao=""
-        link_segundobotao="" />
+        link_primeirobotao="/FaleConosco"
+        link_segundobotao="/FaleConosco" />
             <SecaoIcones 
               tituloh2="O que é a Rede NEU"
               icone_1="recycle"

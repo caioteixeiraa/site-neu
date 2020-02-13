@@ -51,7 +51,7 @@ export class TimelineNEU extends React.Component{
                     <div>
                         <h4 className="titulo-timeline margem-top-3em azul">2017</h4>
                         <h4 className="h4-timeline margin-top">1º Treinamento de Novos Piratas e Lançamento do 1º curso do NEU de criação de startups.</h4>
-                        <a className="link row align-items-center margem-top-2em" href="../arquivos_download/NEU - Resultados de 2017 (1)_compressed.pdf" download>
+                        <a className="link row align-items-center margem-top-2em" href={process.env.PUBLIC_URL + '/NEU - Resultados de 2017 (1)_compressed.pdf'} download>
                             <img className="icone-timeline" src={icone_download} alt=""/>
                             <h6 className="">Relatório de resultados de 2017</h6>
                         </a>
@@ -59,15 +59,15 @@ export class TimelineNEU extends React.Component{
                     <div>
                         <h4 className="titulo-timeline margem-top-3em azul">2018</h4>
                         <h4 className="h4-timeline margin-top">Lançamento de +5 cursos do NEU de criação de startups. União com a Poli Júnior para realizar o SER Empreendedor.</h4>
-                        <a className="link row align-items-center margem-top-2em" href="../arquivos_download/NEU - Resultados de 2018_s_compressed.pdf" download>
+                        <a className="link row align-items-center margem-top-2em" href={process.env.PUBLIC_URL + '/NEU - Resultados de 2018_s_compressed.pdf'} download>
                             <img className="icone-timeline" src={icone_download} alt=""/>
                             <h6 className="">Relatório de resultados de 2018</h6>
                         </a>
                     </div>
                 </div>
                 <div className="container botoes-ship row">
-                    <a href="#" target="_blank"><button type="button col-lg-6 col-md-6 col-sm-8 col-xs-2" className="button-primary" href="mailto:neu@uspempreende.com">Quero apoiar o NEU</button></a>
-                    <a href="#" target="_blank"><button type="button col-lg-6 col-md-6 col-sm-8 col-xs-2" className="button-secondary" href="mailto:neu@uspempreende.com">Fale conosco</button></a>
+                    <a href="#" target="_blank"><button type="button col-lg-6 col-md-6 col-sm-8 col-xs-2" className="button-primary" href="/FaleConosco">Quero apoiar o NEU</button></a>
+                    <a href="#" target="_blank"><button type="button col-lg-6 col-md-6 col-sm-8 col-xs-2" className="button-secondary" href="/FaleConosco">Fale conosco</button></a>
 
                 </div>
             </div>

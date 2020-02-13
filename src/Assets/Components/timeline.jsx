@@ -19,11 +19,11 @@ export class TimelineShip extends React.Component{
                     <div>
                         <h4 className="titulo-timeline margem-top-3em">2 - Entraremos em contato</h4>
                         <p className="margem-top-1em">Entraremos em contato para confirmarmos que você está interessado no StartupSHIP! Enquanto isso, o que acha de dicas para fazer um currículo?</p>
-                        <a className="link row align-items-center margem-top-2em" href="../arquivos_download/Modelo de currículo 1.pdf" target="_blank" download>
+                        <a className="link row align-items-center margem-top-2em" href={process.env.PUBLIC_URL + '/Modelo de currículo 1.pdf'} download>
                             <img className="icone-timeline" src={icone_download} alt=""/>
                             <h6 className="">Modelo de currículo</h6>
                         </a>
-                        <a className="link row align-items-center margem-top-1em" href="../arquivos_download/Startupship _ Núcleo de empreendedorismo da usp.pdf" target="_blank" download>
+                        <a className="link row align-items-center margem-top-1em" href={process.env.PUBLIC_URL + '/Startupship _ Núcleo de empreendedorismo da usp.pdf'} target="_blank" download>
                             <img className="icone-timeline" src={icone_download} alt=""/>
                             <h6 className="">Dicas de como montar um currículo</h6>
                         </a>

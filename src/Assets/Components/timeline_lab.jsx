@@ -40,7 +40,7 @@ export class TimelineLab extends React.Component{
                     <div>
                         <h4 className="titulo-timeline margem-top-3em">4 - Canvas e modelos de negócios</h4>
                         <p className="margem-top-1em">Familiarize-se com esta ferramenta estratégica e construa os seus Canvas Proposta de Valore Business Model Canvas.</p>
-                        <a className="link row align-items-center margem-top-2em" href="../arquivos_download/Canvas_NEU_V6-2018072018.pdf" download>
+                        <a className="link row align-items-center margem-top-2em" href={process.env.PUBLIC_URL + '/Canvas_NEU_V6-2018072018.pdf'} download>
                             <img className="icone-timeline" src={icone_download} alt=""/>
                             <h6 className="">Modelo do Canvas em PDF</h6>
                         </a>
