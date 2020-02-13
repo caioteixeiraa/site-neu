@@ -16,7 +16,7 @@ export class FaleConoscoComponent extends React.Component {
                         <p className="texto">{this.props.text}</p>
                     </div>
                 </div>
-                <form action="mailto:tex.caio@gmail.com?subject=Contato pelo site" method="post" enctype="text/plain">
+                <form action="mailto:neu@uspempreende.org?subject=Contato pelo site" method="post" enctype="text/plain">
                     <label className="azul-bold">
                         Seu e-mail:
                     </label>
