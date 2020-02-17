@@ -22,7 +22,7 @@ export class HomeCursos extends React.Component{
                     </div>
                 </div>
                 <Numbers
-                numero1="+45k"
+                numero1="+90k"
                 descricao1_1="Inscritos nos"
                 descricao1_2="cursos online"
                 numero2="+300h"
