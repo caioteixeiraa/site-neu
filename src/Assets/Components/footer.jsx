@@ -9,14 +9,14 @@ export class Footer extends React.Component{
         return (
             <div className="container-fluid" id="footer-section">
                 <h2 className="container titulo-footer texto-branco">Vamos conversar?</h2>
-                <div className="container textos-foto">
+                <div className="container textos-foto d-flex">
                     <div className="row col-md-4">
                         <p className="texto-branco texto-footer">Venha conversar com a gente, estamos aqui para ajudar você a fazer parte do ecossistema de empreendedorismo na Universidade
                         de São Paulo.</p>
                         <h5 className="texto-branco titulo-maisinfo">Localização:</h5>
-                        <p className="texto-branco mais-info">Cosmos@INOVAUSP<br/>Av. Prof. Lúcio Martins Rodrigues, 370,<br/>Cidade Universitária, Butantã,<br/>São Paulo-SP, 05508-020</p>
+                        <p className="texto-branco mais-info ml-3">Av. Prof. Lúcio Martins Rodrigues, 370,<br/>Cosmos@INOVAUSP<br/>Cidade Universitária, Butantã,<br/>São Paulo-SP, 05508-020</p>
                         <h5 className="texto-branco titulo-maisinfo">Informações de contato:</h5>
-                        <p className="texto-branco mais-info">E-mail: neu@uspempreende.org<br/>Facebook: facebook.com/uspempreende</p>
+                        <p className="texto-branco mais-info ml-3">E-mail: neu@uspempreende.org<br/>Facebook: facebook.com/uspempreende</p>
                     </div>
                     <img className="foto-maps" src={MapsInova} alt="Localização InovaLab" />
                 </div>
@@ -37,6 +37,7 @@ export class Footer extends React.Component{
                 </Navbar>
                 </div>
                 <div>
+                    <p className="copyright-neu">Este é um site open-source! Você pode sugerir modificações neste link: <a className="link-git" href=" https://github.com/caioteixeiraa/site-neu" target="_blank">Github</a></p>
                     <p className="copyright-neu"> &copy; NÚCLEO DE EMPREENDEDORISMO DA USP. TODOS OS DIREITOS RESERVADOS.</p>
                 </div>
             </div>

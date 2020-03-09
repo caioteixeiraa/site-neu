@@ -1,7 +1,6 @@
 .startuplab {
-    align-items: center;
-    margin-top: 22rem;
-    display: flex;
+  margin-top: 22rem;
+  display: flex;
 }
 
 .logo-LAB {
@@ -10,9 +9,8 @@
     width: 50%;
 }
 
-.cardneu {
-  padding: 2em;
-  margin-left: 20em;
+.align-center {
+  align-items: center;
 }
 
 .card-title {
@@ -41,10 +39,15 @@
       margin-bottom: 2.3em;
   }
 
+  hr {
+    margin-top: 4em;
+    margin-bottom: 4em;
+    border-width: 2px;
+    border-color: #EDC02C;
+}
+
   @media only screen and (max-width: 768px) {
     .logo-LAB {
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
+      display: none;
     }
   }
