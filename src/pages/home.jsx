@@ -60,7 +60,7 @@ export class Home extends React.Component {
         titulo="Algumas startups que já contrataram pelo NEU" />
         <HomeEbook />
         <HomeCursos />
-        <HomeParceiros />
+        {/* <HomeParceiros /> */}
         <ScrollUpButton
         ContainerClassName="">
         </ScrollUpButton>
