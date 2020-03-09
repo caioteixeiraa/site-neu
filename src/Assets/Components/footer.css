@@ -33,18 +33,18 @@
 }
 
 .foto-maps {
-    max-width: 70%;
+    width: 70%;
     height: auto;
     margin-left: 5em;
     border-radius: 2%;
     margin-bottom: 2em;
     margin-top: 2em;
-    display: block;
 }
 
 .textos-foto {
     display: flex;
-    justify-items: center; 
+    flex-wrap: nowrap;
+    justify-items: center;
 }
 
 .linha-azul {
@@ -107,6 +107,11 @@
       text-align: center;
   }
 
+  .link-git {
+      text-decoration: none;
+      color: #edc02c;
+  }
+
   @media only screen and (max-width: 768px) {
       .navbar-comp {
           text-align: center;
@@ -115,4 +120,12 @@
         margin-right: 10em;
         margin-left: 9em;
     }
+    .textos-foto {
+        flex-wrap: wrap;
+    }
+    .foto-maps {
+        width: 100%;
+        margin-left: 0em;
+    }
+
   }

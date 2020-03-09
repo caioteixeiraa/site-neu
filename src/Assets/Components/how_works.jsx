@@ -12,10 +12,12 @@ export class HowWorks extends React.Component {
                     <h3>{this.props.titulo1}</h3>
                 </div>
                 <div className="container row textos-lab">
-                    <div className="col-md-5 col-12 offset-0 offset-md-0 texto-esquerdo">
+                    <div className="col-md-5">
                         <p>{this.props.textolateral}</p>
-                        <div className="botao-lab">
-                            <a href={this.props.refpage}><button type="button" className="button-primary">Saber mais</button></a>
+                        <div className="botao-lab d-flex">
+                            <a href={this.props.refpage} className="ml-auto mr-auto">
+                                <button type="button" className="button-primary">Saber mais</button>
+                            </a>
                         </div>
                     </div>
                     <div className="col-md-5 offset-1 itens-lab">

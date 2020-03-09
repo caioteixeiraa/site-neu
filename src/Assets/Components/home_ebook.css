@@ -14,7 +14,6 @@
 }
 
 .ebook {
-    display: flex;
     align-items: center;
 }
 
@@ -76,6 +75,7 @@
     
     .ebook {
         display: inline;
+        flex-wrap: wrap;
     }
     
     .titulo-ebook {
@@ -88,8 +88,9 @@
     
     #foto-ebook {
         align-content: center;
-        height: 25em;
-        margin-left: 14%;
+        height: 20em;
+        margin-left: auto;
+        margin-right: auto;
     }
     
     #textos-ebook {
